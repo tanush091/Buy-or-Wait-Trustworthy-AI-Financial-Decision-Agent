@@ -1,0 +1,3 @@
+pandas>=2.0.0
+# The Gemini reading layer uses only the Python standard library (urllib); no extra packages.
+# Optional NLI fact verifier (large download): pip install -r code/requirements-nli.txt

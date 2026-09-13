@@ -1,0 +1,5959 @@
+{
+ "0074f7627a429e5a57eeb3eb6794116a3c0033cae6634e23fd328ca55a8c9ed8": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_174",
+    "pct": null,
+    "reason": "Reimbursement for previous work expenses, not regular salary"
+   }
+  }
+ },
+ "007b01e0a0a0898d15818b4090e8697a0ca8c313a0afaeb7e03508561b40a92f": {
+  "__llm__": {
+   "in": 536,
+   "model": "gemini-3.5-flash",
+   "out": 90,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_13",
+    "pct": null,
+    "reason": "Internal account transfer notification, no budget effect"
+   }
+  }
+ },
+ "044a9d880bd918d9a12a389fe202a0c881c6d8330a8550f1c3fc4fdbde7bc206": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_184",
+    "pct": null,
+    "reason": "Refund is still processing"
+   }
+  }
+ },
+ "09536c49bee1873f41a1a09f49eaa02a1edfda8496f9cadd62f540c16feeea3a": {
+  "__llm__": {
+   "in": 528,
+   "model": "gemini-3.5-flash",
+   "out": 1275,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "salary_arrears",
+    "message_id": "message_02",
+    "pct": null,
+    "reason": "The payroll team confirmed that the next payslip will show the regular salary and a one-time adjustment separately."
+   }
+  }
+ },
+ "0eedf1770f7e1c414138ca157585b0782baaabd9d5b8250ea17497d2332eafb9": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_159",
+    "pct": null,
+    "reason": "Quarterly bonus is pending performance review and not yet approved"
+   }
+  }
+ },
+ "10bbfaaec8dfe8366a920a815b90f2fabf596e5399074638bfb8b0789fdb6958": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_117",
+    "pct": null,
+    "reason": "Reimbursement for work expense, not regular salary"
+   }
+  }
+ },
+ "119f5ebb292251ff1a477d0c62e7520a0fa24d47a9cf1bb39a8b012db0d7288a": {
+  "amount": 4365000,
+  "confidence": 0.9,
+  "currency": "IDR",
+  "date": "2019-09-02",
+  "doc_type": "payslip"
+ },
+ "1355dd17c21f065931bf9d522f50f8326b1557390eee2b3ff41ebce594e0f2d3": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_202",
+    "pct": null,
+    "reason": "Internal transfer between accounts"
+   }
+  }
+ },
+ "13c94a19b4b1bf0d3e4b2f9b036de4cf2882b54545cd104d3cbb57db368ee8d2": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_114",
+    "pct": null,
+    "reason": "Investment sale proceeds settled in cash account"
+   }
+  }
+ },
+ "227470d60559b840799fe6b18b66f8daa133b820dac039c06984b4278d5759e3": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_75",
+    "pct": null,
+    "reason": "Prize proceeds received"
+   }
+  }
+ },
+ "25324e13b0fabd4c7990f95e1111d54844873e2218a9f3c5c67bdb21ec76ecbf": [
+  {
+   "kind": "income_uncertain",
+   "message_id": "message_76",
+   "reason": "client approved an invoice payment, but other invoices are awaiting approval and only confirmed invoices are included in payout"
+  },
+  {
+   "amount": 164880,
+   "currency": "INR",
+   "kind": "salary_next",
+   "message_id": "message_77",
+   "reason": "temporary monthly pay continues for the next payroll"
+  },
+  {
+   "amount": 35860,
+   "currency": "ZAR",
+   "kind": "salary_base",
+   "message_id": "message_78",
+   "reason": "confirmed base salary, commissions pending approval"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_79",
+   "reason": "portfolio's displayed market value has increased"
+  },
+  {
+   "amount": 1815,
+   "currency": "EUR",
+   "effective_date": "2024-12-15",
+   "kind": "salary_first",
+   "message_id": "message_80",
+   "reason": "first salary from new employer confirmed"
+  },
+  {
+   "amount": 2123,
+   "currency": "EUR",
+   "effective_date": "2025-05-15",
+   "kind": "salary_first",
+   "message_id": "message_81",
+   "reason": "first salary scheduled"
+  },
+  {
+   "amount": 33440,
+   "currency": "ZAR",
+   "kind": "salary_base",
+   "message_id": "message_82",
+   "reason": "confirmed base salary, commissions pending approval"
+  },
+  {
+   "kind": "income_uncertain",
+   "message_id": "message_83",
+   "reason": "client approved an invoice payment, but other invoices are awaiting approval and only confirmed invoices are included in payout"
+  },
+  {
+   "kind": "income_end",
+   "message_id": "message_84",
+   "reason": "employment relationship has ended, no further regular salary payments"
+  },
+  {
+   "amount": 627,
+   "currency": "EUR",
+   "effective_date": "2024-06-15",
+   "kind": "salary_first",
+   "message_id": "message_85",
+   "reason": "first salary confirmed"
+  },
+  {
+   "amount": 1296,
+   "currency": "USD",
+   "effective_date": "2026-09-15",
+   "kind": "salary_on_date",
+   "message_id": "message_86",
+   "reason": "employer confirmed a salary credit"
+  },
+  {
+   "amount": 148200,
+   "currency": "INR",
+   "kind": "salary_next",
+   "message_id": "message_87",
+   "reason": "next salary is reduced due to approved unpaid leave"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_88",
+   "reason": "prize proceeds reached account, no further scheduled payments"
+  },
+  {
+   "amount": 1188,
+   "currency": "EUR",
+   "effective_date": "2026-07-15",
+   "kind": "salary_raise",
+   "message_id": "message_89",
+   "reason": "monthly salary has increased"
+  },
+  {
+   "amount": 759,
+   "currency": "EUR",
+   "extra": 341.55,
+   "kind": "salary_arrears",
+   "message_id": "message_90",
+   "reason": "regular salary plus a one-time arrears adjustment"
+  },
+  {
+   "amount": 176000,
+   "currency": "INR",
+   "effective_date": "2025-05-15",
+   "kind": "salary_resume",
+   "message_id": "message_91",
+   "reason": "regular salary resumes"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_92",
+   "reason": "investment sale proceeds received, no pending sales results"
+  },
+  {
+   "kind": "income_uncertain",
+   "message_id": "message_93",
+   "reason": "client approved an invoice payment, but other invoices are awaiting approval and only confirmed invoices are included in payout"
+  },
+  {
+   "kind": "income_uncertain",
+   "message_id": "message_94",
+   "reason": "next payment is pending, weekly earnings can still change until payment is settled"
+  },
+  {
+   "amount": 748,
+   "currency": "EUR",
+   "effective_date": "2025-11-15",
+   "kind": "salary_on_date",
+   "message_id": "message_95",
+   "reason": "salary confirmed for a specific date"
+  },
+  {
+   "kind": "income_uncertain",
+   "message_id": "message_96",
+   "reason": "client approved an invoice payment, but other invoices are awaiting approval and only confirmed invoices are included in payout"
+  },
+  {
+   "amount": 50160,
+   "currency": "ZAR",
+   "effective_date": "2024-09-15",
+   "kind": "salary_resume",
+   "message_id": "message_97",
+   "reason": "regular salary resumes"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_98",
+   "reason": "quarterly bonus is subject to final performance review, amount and date not yet approved"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_99",
+   "reason": "prize proceeds reached account, no further scheduled payments"
+  },
+  {
+   "amount": 2177.28,
+   "currency": "USD",
+   "kind": "salary_next",
+   "message_id": "message_100",
+   "reason": "temporary monthly pay continues for the next payroll"
+  }
+ ],
+ "256ef2fc1c913c0c7e2bba5a7e5d10a261c91d4362f0367e05a737906d24f827": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_177",
+    "pct": null,
+    "reason": "Quarterly bonus is pending performance review and not yet approved"
+   }
+  }
+ },
+ "2a67ee2c57db4e9d18e4679e7924330b54d21b359c63f113421bdfdc5f53ec14": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_110",
+    "pct": null,
+    "reason": "Prize proceeds received"
+   }
+  }
+ },
+ "2afb979f4db51aa70dab75cf19effeb6958299a564da18e45ebfa62bc9b6b6e0": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_163",
+    "pct": null,
+    "reason": "Investment value change without cash transaction"
+   }
+  }
+ },
+ "357702aa8ff097c237e7b77c9e89466494fc8618c6d772bcd89302bdfd7a5f4c": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_144",
+    "pct": null,
+    "reason": "Quarterly bonus is pending performance review and not yet approved"
+   }
+  }
+ },
+ "35a50b0652504465e8657af4b40472fff6b4b6a3fb4d1dc402ae22e6ddc5a419": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_167",
+    "pct": null,
+    "reason": "Refund is still processing"
+   }
+  }
+ },
+ "3b57472bd6fb4d447c60136a067f4c3a59a630aabf88462f41b105fed0e057a7": [
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_arrears",
+   "message_id": "message_02",
+   "pct": null,
+   "reason": "Gaji rutin berikutnya dikonfirmasi dengan penyesuaian satu kali secara terpisah"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_03",
+   "pct": null,
+   "reason": "Quarterly bonus is pending final performance review and not yet approved"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_13",
+   "pct": null,
+   "reason": "Internal transfer between two accounts of the same holder"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_14",
+   "pct": null,
+   "reason": "Refund initiated but has not reached the account yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_15",
+   "pct": null,
+   "reason": "Portfolio market value increased without any units sold or cash generated"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_16",
+   "pct": null,
+   "reason": "Prize claim verified but still in payment processing and not credited yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_17",
+   "pct": null,
+   "reason": "Prize proceeds have already reached the account and claim is closed"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_23",
+   "pct": null,
+   "reason": "Internal transfer between two accounts"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_25",
+   "pct": null,
+   "reason": "Refund initiated but has not reached the account yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_28",
+   "pct": null,
+   "reason": "Prize proceeds have already reached the account and claim is closed"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_35",
+   "pct": null,
+   "reason": "Property maintenance payment receipt for a past payment"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_39",
+   "pct": null,
+   "reason": "Refund initiated but has not reached the account yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_41",
+   "pct": null,
+   "reason": "Internal transfer between two accounts"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_47",
+   "pct": null,
+   "reason": "Foreign-currency refund is still processing"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_48",
+   "pct": null,
+   "reason": "Quarterly bonus is pending final performance review and not yet approved"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_52",
+   "pct": null,
+   "reason": "Portfolio market value increased without any units sold or cash generated"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_59",
+   "pct": null,
+   "reason": "Refund initiated but has not reached the account yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_64",
+   "pct": null,
+   "reason": "Receipt for a paid order"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_71",
+   "pct": null,
+   "reason": "Prize claim verified but still in payment processing and not credited yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_75",
+   "pct": null,
+   "reason": "Prize proceeds have already reached the account"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_79",
+   "pct": null,
+   "reason": "Portfolio market value increased"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_88",
+   "pct": null,
+   "reason": "Prize proceeds have already reached the account and claim is closed"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_92",
+   "pct": null,
+   "reason": "Investment sale proceeds have already reached the cash account"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_98",
+   "pct": null,
+   "reason": "Quarterly bonus is pending final performance review and not yet approved"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_99",
+   "pct": null,
+   "reason": "Prize proceeds have already reached the account and claim is closed"
+  }
+ ],
+ "496d97094743598a49e480688d9f76775025f02fa8eb04bd1364adb46e6428fd": [
+  {
+   "amount": 627,
+   "currency": "EUR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_151",
+   "pct": null,
+   "reason": "Your payroll details at HarborWorks have changed. Your monthly salary has increased to EUR 627. The change applies from 2026-07-15. The revised amount will appear on your next payslip. Payroll ref EMP-0151."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_152",
+   "pct": null,
+   "reason": "UrbanCart has received an update from the payment processor. Your refund has been initiated but has not reached your account yet. Most refunds are completed within ten business days. We\u2019ll send another update when the credit is completed. Order ref MER-0152."
+  },
+  {
+   "amount": 1750.32,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_153",
+   "pct": null,
+   "reason": "Here\u2019s the latest payroll information from Cedar Health. Your temporary monthly pay is EUR 1750.32. The reduced amount continues for the next payroll. This is the amount currently scheduled for the affected pay cycle. Payroll ref EMP-0153."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-08-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_154",
+   "pct": null,
+   "reason": "Your payroll details at Northstar Labs have changed. Your confirmed salary is now expected on 2025-08-23. This replaces the payroll date shown in the earlier update. Please use the revised date for anything you normally pay around payday. Payroll ref EMP-0154."
+  },
+  {
+   "amount": 1222.65,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_155",
+   "pct": null,
+   "reason": "Hi, HarborWorks payroll here. Your next salary is reduced to EUR 1222.65. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0155."
+  },
+  {
+   "amount": 38190000,
+   "currency": "IDR",
+   "effective_date": "2025-11-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_156",
+   "pct": null,
+   "reason": "Cedar Health telah memperbarui catatan penggajian Anda. Gaji pertama Anda sebesar IDR 38190000 dijadwalkan pada 2025-11-15. Tim payroll sudah menyetujui pembayaran dan mengirimkannya untuk diproses. Dana baru akan terlihat setelah bank memproses berkas penggajian. Ref payroll EMP-0156."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_157",
+   "pct": null,
+   "reason": "Here\u2019s the latest transaction update from BluePeak Bank. The extra card charge is still being investigated. A reversal has not been posted to the account yet. The dispute is open and no reversal has been posted yet. Txn ref BAN-0157."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_158",
+   "pct": null,
+   "reason": "Ada pemberitahuan dari ShiftPay tentang aktivitas akun terbaru. Pembayaran berikutnya dari ShiftPay masih tertunda. Penghasilan mingguan di aplikasi ShiftPay masih dapat berubah sampai pembayaran diselesaikan. Saldo belum dapat ditarik sampai status pembayaran menunjukkan selesai. Ref kasus SER-0158."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_159",
+   "pct": null,
+   "reason": "Ada informasi baru dari HarborWorks tentang gaji Anda. Bonus kuartalan Anda masih menunggu hasil akhir penilaian kinerja. Jumlah akhir dan tanggal pembayaran belum disetujui. Kami akan mengirim pembaruan setelah tim payroll mengonfirmasi jumlah dan tanggalnya. Ref payroll EMP-0159."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_160",
+   "pct": null,
+   "reason": "Tim payroll Northstar Labs telah mengirim pembaruan. Kontrak musiman saat ini telah berakhir. Belum ada pendapatan di luar musim atau perpanjangan kontrak yang dikonfirmasi. Kami akan menghubungi Anda jika jadwal kerja atau kontrak berikutnya disetujui. Ref payroll EMP-0160."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_161",
+   "pct": null,
+   "reason": "Harbor Bank has new information about one of your transactions. There are minimum payments due on two separate card accounts this month. A payment to one card will not cover the amount due on the other card. The minimums belong to separate accounts, so one payment won\u2019t clear the other. Txn ref BAN-0161."
+  },
+  {
+   "amount": 2024,
+   "currency": "EUR",
+   "effective_date": "2026-01-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_162",
+   "pct": null,
+   "reason": "A quick update from the payroll team at BrightPath Media. Your first salary will be EUR 2024. The confirmed credit date is 2026-01-15. The money will appear after the bank posts the credit. Payroll ref EMP-0162."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_163",
+   "pct": null,
+   "reason": "Berikut informasi akun terbaru dari Nova Securities. Nilai investasi yang ditampilkan telah turun. Investasi tersebut belum dijual dan tidak ada transaksi tunai. Nilai yang ditampilkan akan terus berubah mengikuti harga pasar. Ref akun FIN-0163."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_164",
+   "pct": null,
+   "reason": "A note from BluePeak Bank about recent activity on your account. The extra card charge is still being investigated. A reversal has not been posted to the account yet. The dispute is open and no reversal has been posted yet. Txn ref BAN-0164."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-02-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_165",
+   "pct": null,
+   "reason": "Ada informasi baru dari Greenfield Foods tentang gaji Anda. Gaji yang sudah dikonfirmasi kini diperkirakan masuk pada 2025-02-23. Tanggal ini menggantikan tanggal penggajian pada pemberitahuan sebelumnya. Gunakan tanggal terbaru ini untuk pembayaran yang biasanya dilakukan saat gajian. Ref payroll EMP-0165."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_166",
+   "pct": null,
+   "reason": "HarborWorks payroll has posted a new update. The current seasonal contract has ended. No off-season income or renewal has been confirmed. We\u2019ll contact you separately if another shift block or contract is approved. Payroll ref EMP-0166."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_167",
+   "pct": null,
+   "reason": "BrightBasket has new information about your payment or refund. The foreign-currency refund is still processing. The final home-currency credit will be calculated when the refund settles. The home-currency credit may change with the settlement-date rate. Order ref MER-0167."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_168",
+   "pct": null,
+   "reason": "Hi, QuickCrew here. The next QuickCrew payout is still pending. The weekly earnings shown in the QuickCrew app can change until the payout is closed. The balance isn\u2019t withdrawable until the payout shows as completed. Case ref SER-0168."
+  },
+  {
+   "amount": 2424,
+   "currency": "USD",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_169",
+   "pct": null,
+   "reason": "Here\u2019s the latest payroll information from Cobalt Systems. Your monthly salary has increased to USD 2424. The change applies from 2026-07-15. The revised amount will appear on your next payslip. Payroll ref EMP-0169."
+  },
+  {
+   "amount": 1914,
+   "currency": "EUR",
+   "effective_date": "2026-04-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_170",
+   "pct": null,
+   "reason": "A quick update from the payroll team at BrightPath Media. Regular salary of EUR 1914 resumes on 2026-04-15. A new recurring childcare payment begins in the same month. The updated pay and deductions will appear from the next cycle. Payroll ref EMP-0170."
+  },
+  {
+   "amount": 1346.4,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_171",
+   "pct": null,
+   "reason": "A quick update from the payroll team at HarborWorks. Your temporary monthly pay is EUR 1346.40. The reduced amount continues for the next payroll. This is the amount currently scheduled for the affected pay cycle. Payroll ref EMP-0171."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_172",
+   "pct": null,
+   "reason": "Here\u2019s the latest payment status from Everyday Store. Your refund has been initiated but has not reached your account yet. Most refunds are completed within ten business days. We\u2019ll send another update when the credit is completed. Order ref MER-0172."
+  },
+  {
+   "amount": 35200,
+   "currency": "ZAR",
+   "effective_date": "2026-01-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_173",
+   "pct": null,
+   "reason": "There\u2019s a new account update from ClientDesk. The client approved an invoice payment of ZAR 35200. Settlement is expected on 2026-01-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0173."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_174",
+   "pct": null,
+   "reason": "Ada informasi baru dari BrightPath Media tentang gaji Anda. Dana terbaru dari perusahaan adalah penggantian atas biaya kerja Anda sebelumnya. Klaim sudah ditutup dan tidak ada penggantian tambahan yang dijadwalkan. Pembayaran ini terkait biaya kerja sebelumnya, bukan gaji rutin Anda. Ref payroll EMP-0174."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_175",
+   "pct": 12,
+   "reason": "HomePortal memiliki informasi baru tentang pembayaran berikutnya. Perpanjangan sewa menaikkan biaya sewa bulanan sebesar 12%. Jumlah baru berlaku mulai pembayaran sewa berikutnya. Jumlah baru akan digunakan untuk pembayaran sewa berikutnya. Ref kasus SER-0175."
+  }
+ ],
+ "523ab445f53a49dbc5a2cb554a17b25d33e3b24abad17821297eb26c9f304d04": {
+  "__llm__": {
+   "in": 162,
+   "model": "gemini-3.5-flash",
+   "out": 350,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_209",
+    "pct": null,
+    "reason": "Prize payment is still processing and has not been credited yet"
+   }
+  }
+ },
+ "5356b2bface7dac0fab6d1517bc76ffc5711b9cc5792e03b92647a625521a534": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_99",
+    "pct": null,
+    "reason": "Prize proceeds received"
+   }
+  }
+ },
+ "54c9962a7a31506d52c92cf72c5c942b40a78b366db064d71d205fa7f32bbd22": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_134",
+    "pct": null,
+    "reason": "Prize claim is still processing and has not been paid yet"
+   }
+  }
+ },
+ "580fdaae541c16287db590f418a7172b99d201c09ff030cc1c7aebb256e5998c": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_59",
+    "pct": null,
+    "reason": "Refund initiated but not yet received"
+   }
+  }
+ },
+ "58ce7a0e0e7becda797c5cc618bb6c5d08df48237acaa24ab3830cd794085913": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": "2026-04-03",
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_64",
+    "pct": null,
+    "reason": "Receipt of payment"
+   }
+  }
+ },
+ "5ce73850976a6742f7beb4f08ee69e36faed555beb32f1b7c6e016749802090e": [
+  {
+   "amount": 42750000,
+   "currency": "IDR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_01",
+   "pct": null,
+   "reason": "Gaji bulanan Anda naik menjadi IDR 42750000."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_02",
+   "pct": null,
+   "reason": "Tim payroll BrightPath Media telah mengirim pembaruan. Gaji rutin untuk penggajian berikutnya sudah dikonfirmasi. Slip gaji berikutnya akan menampilkan gaji rutin dan penyesuaian satu kali secara terpisah. Ref payroll EMP-0002."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_03",
+   "pct": null,
+   "reason": "Rincian penggajian Anda di Greenfield Foods telah berubah. Bonus kuartalan Anda masih menunggu hasil akhir penilaian kinerja. Jumlah akhir dan tanggal pembayaran belum disetujui. Kami akan mengirim pembaruan setelah tim payroll mengonfirmasi jumlah dan tanggalnya. Ref payroll EMP-0003."
+  },
+  {
+   "amount": 1037.52,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_04",
+   "pct": null,
+   "reason": "Your temporary monthly pay is EUR 1037.52. The reduced amount continues for the next payroll."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2024-09-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_05",
+   "pct": null,
+   "reason": "Your confirmed salary is now expected on 2024-09-23."
+  },
+  {
+   "amount": 1422.85,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_06",
+   "pct": null,
+   "reason": "Your next salary is reduced to EUR 1422.85. The adjustment is due to approved unpaid leave."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_07",
+   "pct": null,
+   "reason": "The next QuickCrew payout is still pending. The weekly earnings shown in the QuickCrew app can change until the payout is closed. The balance isn\u2019t withdrawable until the payout shows as completed. Case ref SER-0007."
+  },
+  {
+   "amount": 38760000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_08",
+   "pct": null,
+   "reason": "Gaji pokok yang dikonfirmasi adalah IDR 38760000. Komisi dari transaksi yang masih berjalan belum disetujui."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_09",
+   "pct": null,
+   "reason": "The current seasonal contract has ended. No off-season income or renewal has been confirmed."
+  },
+  {
+   "amount": 2717,
+   "currency": "EUR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_10",
+   "pct": null,
+   "reason": "Regular salary of EUR 2717 resumes on 2025-08-15."
+  },
+  {
+   "amount": 1661,
+   "currency": "EUR",
+   "effective_date": "2026-01-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_11",
+   "pct": null,
+   "reason": "Your first salary will be EUR 1661. The confirmed credit date is 2026-01-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_12",
+   "pct": 12,
+   "reason": "The renewed lease increases monthly rent by 12%."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_13",
+   "pct": null,
+   "reason": "The matching debit and credit came from a transfer between your two accounts. Both accounts are registered under the same account holder. Both entries will remain visible in your transaction history. Txn ref BAN-0013."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_14",
+   "pct": null,
+   "reason": "Your refund has been initiated but has not reached your account yet. We\u2019ll send another update when the credit is completed. Order ref MER-0014."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_15",
+   "pct": null,
+   "reason": "Your portfolio\u2019s displayed market value has increased substantially. No units have been sold and no cash proceeds have been generated. The displayed value will continue to move with market prices. Account ref FIN-0015."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_16",
+   "pct": null,
+   "reason": "Your prize claim has been verified and is still in payment processing. The payment has not been credited to your account yet. We\u2019ll confirm again if and when the money is actually credited. Account ref FIN-0016."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_17",
+   "pct": null,
+   "reason": "The prize proceeds have reached your account after withholding. The claim is now closed and there are no further scheduled payments. There won\u2019t be another payment unless a separate prize is confirmed. Account ref FIN-0017."
+  },
+  {
+   "amount": 30780000,
+   "currency": "IDR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_18",
+   "pct": null,
+   "reason": "Klien menyetujui pembayaran faktur sebesar IDR 30780000. Penyelesaian diperkirakan pada 2025-08-15;"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_19",
+   "pct": null,
+   "reason": "The next TaskLoop payout is still pending. The weekly earnings shown in the TaskLoop app can change until the payout is closed. The balance isn\u2019t withdrawable until the payout shows as completed. Case ref SER-0019."
+  },
+  {
+   "amount": 1452,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": 653.4,
+   "kind": "salary_arrears",
+   "message_id": "message_20",
+   "pct": null,
+   "reason": "Your regular salary for the next payroll is EUR 1452. The same payroll includes a one-time arrears adjustment of EUR 653.40."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_21",
+   "pct": null,
+   "reason": "The current seasonal contract has ended. No off-season income or renewal has been confirmed."
+  },
+  {
+   "amount": 54120,
+   "currency": "ZAR",
+   "effective_date": "2025-02-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_22",
+   "pct": null,
+   "reason": "Your first salary will be ZAR 54120. The confirmed credit date is 2025-02-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_23",
+   "pct": null,
+   "reason": "The matching debit and credit came from a transfer between your two accounts. Both entries will remain visible in your transaction history. Txn ref BAN-0023."
+  },
+  {
+   "amount": 196000,
+   "currency": "INR",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_24",
+   "pct": null,
+   "reason": "The client approved an invoice payment of INR 196000. Settlement is expected on 2024-12-15;"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_25",
+   "pct": null,
+   "reason": "Your refund has been initiated but has not reached your account yet. We\u2019ll send another update when the credit is completed. Order ref MER-0025."
+  }
+ ],
+ "5f140a8eea8096ec53eadc3136b37d95839171ee588d5fd909eda7fc8b26fbe0": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_88",
+    "pct": null,
+    "reason": "Prize proceeds received"
+   }
+  }
+ },
+ "625f8fd04454c3a49169bcac034ff17f2095848be8efa5d6f909ad34b28d1118": {
+  "__llm__": {
+   "in": 539,
+   "model": "gemini-3.5-flash",
+   "out": 909,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_03",
+    "pct": null,
+    "reason": "The quarterly bonus is pending performance appraisal and the final amount and payment date are not yet approved."
+   }
+  }
+ },
+ "63f3ccc328f6468abf6115443162bb87b1f70e711aaaa0a13392d831314d71c2": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_205",
+    "pct": null,
+    "reason": "Investment value change without cash transaction"
+   }
+  }
+ },
+ "6400e09ce0208692a52015909d596cb9aa31cc14b693cf12dc658d2d1f35ac92": {
+  "__llm__": {
+   "in": 538,
+   "model": "gemini-3.5-flash",
+   "out": 95,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_16",
+    "pct": null,
+    "reason": "Prize claim is in payment processing and has not been credited yet."
+   }
+  }
+ },
+ "66f6aba107dde776b52f39487a83ee4d4f636df5697bdbb29532a52bad578843": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_25",
+    "pct": null,
+    "reason": "Refund initiated but not yet received"
+   }
+  }
+ },
+ "670cff645cb76e3e58fceaa76247582e61ceabac859b23a3e07f75cc208078a2": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_146",
+    "pct": null,
+    "reason": "Refund is still processing"
+   }
+  }
+ },
+ "695672d6af6d0cdefd5c6495c4e7ec53fc35159371ad0c7f9dcb3e26dcf63abf": {
+  "__llm__": {
+   "in": 162,
+   "model": "gemini-3.5-flash",
+   "out": 350,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_215",
+    "pct": null,
+    "reason": "Refund has been processed but not yet credited to the account"
+   }
+  }
+ },
+ "69d7d24336c3b2a803c0ae7bfcc2f8efff253f9de3817838b8435a17acc7a237": [
+  {
+   "amount": 29070000,
+   "currency": "IDR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_126",
+   "pct": null,
+   "reason": "Gaji bulanan Anda naik menjadi IDR 29070000. Perubahan ini berlaku mulai 2026-07-15."
+  },
+  {
+   "amount": 30400000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": 13680000,
+   "kind": "salary_arrears",
+   "message_id": "message_127",
+   "pct": null,
+   "reason": "Gaji rutin Anda untuk penggajian berikutnya adalah IDR 30400000. Penggajian yang sama mencakup penyesuaian tunggakan satu kali sebesar IDR 13680000."
+  },
+  {
+   "amount": 44270000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_128",
+   "pct": null,
+   "reason": "Gaji pokok yang dikonfirmasi adalah IDR 44270000. Komisi dari transaksi yang masih berjalan belum disetujui."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_129",
+   "pct": null,
+   "reason": "Your employment has ended. There are no regular salary payments scheduled after the final settlement."
+  },
+  {
+   "amount": 2340,
+   "currency": "USD",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_130",
+   "pct": null,
+   "reason": "The client approved an invoice payment of USD 2340. Settlement is expected on 2024-12-15;"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-05-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_131",
+   "pct": null,
+   "reason": "Your confirmed salary is now expected on 2025-05-23."
+  },
+  {
+   "amount": 137150,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_132",
+   "pct": null,
+   "reason": "Your next salary is reduced to INR 137150. The adjustment is due to approved unpaid leave."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_133",
+   "pct": null,
+   "reason": "The foreign-currency refund is still processing. The final home-currency credit will be calculated when the refund settles."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_134",
+   "pct": null,
+   "reason": "Klaim hadiah Anda sudah diverifikasi dan masih dalam proses pembayaran. Pembayaran tersebut belum masuk ke rekening Anda."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_135",
+   "pct": null,
+   "reason": "The matching debit and credit came from a transfer between your two accounts."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_136",
+   "pct": null,
+   "reason": "There are minimum payments due on two separate card accounts this month. A payment to one card will not cover the amount due on the other card."
+  },
+  {
+   "amount": 1284,
+   "currency": "USD",
+   "effective_date": "2025-11-15",
+   "extra": null,
+   "kind": "salary_on_date",
+   "message_id": "message_137",
+   "pct": null,
+   "reason": "Your salary of USD 1284 is confirmed for 2025-11-15."
+  },
+  {
+   "amount": 1924.56,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_138",
+   "pct": null,
+   "reason": "Your temporary monthly pay is EUR 1924.56. The reduced amount continues for the next payroll."
+  },
+  {
+   "amount": 847,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_139",
+   "pct": null,
+   "reason": "Your confirmed base salary is EUR 847. The commission shown for open deals is still pending approval."
+  },
+  {
+   "amount": 1731.6,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_140",
+   "pct": null,
+   "reason": "Your next salary is reduced to USD 1731.60. The adjustment is due to approved unpaid leave."
+  },
+  {
+   "amount": 2376,
+   "currency": "EUR",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_141",
+   "pct": null,
+   "reason": "The client approved an invoice payment of EUR 2376. Settlement is expected on 2024-12-15;"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_142",
+   "pct": null,
+   "reason": "Selamat! Anda terpilih untuk menerima hadiah uang tunai. Bayar biaya pencairan hari ini agar dana segera diterima."
+  },
+  {
+   "amount": 59000,
+   "currency": "INR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_143",
+   "pct": null,
+   "reason": "Your first salary will be INR 59000. The confirmed credit date is 2026-07-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_144",
+   "pct": null,
+   "reason": "Your quarterly bonus is still subject to the final performance review. The final amount and payment date have not been approved yet."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_145",
+   "pct": null,
+   "reason": "Tagihan dikenakan dalam mata uang asing. Bank Anda akan mengonfirmasi jumlah akhir dalam mata uang utama saat transaksi selesai."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_146",
+   "pct": null,
+   "reason": "The foreign-currency refund is still processing. The final home-currency credit will be calculated when the refund settles."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_147",
+   "pct": 12,
+   "reason": "The renewed lease increases monthly rent by 12%. The new amount applies from the next rent payment."
+  },
+  {
+   "amount": 31889,
+   "currency": "ZAR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_148",
+   "pct": null,
+   "reason": "Your next salary is reduced to ZAR 31889. The adjustment is due to approved unpaid leave."
+  },
+  {
+   "amount": 145000,
+   "currency": "INR",
+   "effective_date": "2024-09-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_149",
+   "pct": null,
+   "reason": "Your first salary from the new employer is INR 145000. It is confirmed for 2024-09-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_150",
+   "pct": null,
+   "reason": "The latest employer credit is the reimbursement for your earlier work expense. The claim is now closed and no additional reimbursement is scheduled."
+  }
+ ],
+ "6a5297f5fa3eb586358b080966ed158084e928d1b0dc7075db9841432b06739c": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_48",
+    "pct": null,
+    "reason": "Quarterly bonus not yet approved"
+   }
+  }
+ },
+ "6c34ae99a1c51dbd19b32c89dd9da598aa4f34d3ad150d405ded7f60f8e4458e": [
+  {
+   "amount": 260000,
+   "currency": "INR",
+   "extra": 117000,
+   "kind": "salary_arrears",
+   "message_id": "message_176",
+   "reason": "regular salary for the next payroll is INR 260000. The same payroll includes a one-time arrears adjustment of INR 117000"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_177",
+   "reason": "quarterly bonus is still subject to the final performance review. The final amount and payment date have not been approved yet"
+  },
+  {
+   "amount": 30400000,
+   "currency": "IDR",
+   "effective_date": "2026-04-15",
+   "kind": "salary_first",
+   "message_id": "message_178",
+   "reason": "Gaji pertama Anda sebesar IDR 30400000. Tanggal kredit yang dikonfirmasi adalah 2026-04-15"
+  },
+  {
+   "kind": "bill_retry",
+   "message_id": "message_179",
+   "reason": "The previous debit attempt failed. The bill is still outstanding and another debit will be attempted"
+  },
+  {
+   "amount": 2827,
+   "currency": "EUR",
+   "kind": "salary_set",
+   "message_id": "message_180",
+   "reason": "One household employment record has ended. The remaining confirmed monthly salary is EUR 2827"
+  },
+  {
+   "amount": 2772,
+   "currency": "EUR",
+   "effective_date": "2024-06-15",
+   "kind": "salary_first",
+   "message_id": "message_181",
+   "reason": "Your first salary will be EUR 2772. The confirmed credit date is 2024-06-15"
+  },
+  {
+   "amount": 16910000,
+   "currency": "IDR",
+   "effective_date": "2025-11-15",
+   "kind": "salary_first",
+   "message_id": "message_182",
+   "reason": "Gaji pertama Anda sebesar IDR 16910000 dijadwalkan pada 2025-11-15"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_183",
+   "reason": "The extra card charge is still being investigated. A reversal has not been posted to the account yet"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_184",
+   "reason": "The foreign-currency refund is still processing. The final home-currency credit will be calculated when the refund settles"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_185",
+   "reason": "Nilai investasi yang ditampilkan telah turun. Investasi tersebut belum dijual dan tidak ada transaksi tunai"
+  },
+  {
+   "kind": "income_end",
+   "message_id": "message_186",
+   "reason": "Kontrak musiman saat ini telah berakhir. Belum ada pendapatan di luar musim atau perpanjangan kontrak yang dikonfirmasi"
+  },
+  {
+   "amount": 912,
+   "currency": "USD",
+   "kind": "salary_set",
+   "message_id": "message_187",
+   "reason": "One household employment record has ended. The remaining confirmed monthly salary is USD 912"
+  },
+  {
+   "amount": 62000,
+   "currency": "INR",
+   "effective_date": "2026-01-15",
+   "kind": "salary_first",
+   "message_id": "message_188",
+   "reason": "Your first salary will be INR 62000. The confirmed credit date is 2026-01-15"
+  },
+  {
+   "kind": "income_end",
+   "message_id": "message_189",
+   "reason": "Kontrak musiman saat ini telah berakhir. Belum ada pendapatan di luar musim atau perpanjangan kontrak yang dikonfirmasi"
+  },
+  {
+   "amount": 968,
+   "currency": "EUR",
+   "effective_date": "2025-08-15",
+   "kind": "salary_first",
+   "message_id": "message_190",
+   "reason": "Your first salary of EUR 968 is scheduled for 2025-08-15"
+  },
+  {
+   "amount": 1680,
+   "currency": "USD",
+   "effective_date": "2025-11-15",
+   "kind": "salary_on_date",
+   "message_id": "message_191",
+   "reason": "Your salary of USD 1680 is confirmed for 2025-11-15"
+  },
+  {
+   "kind": "income_end",
+   "message_id": "message_192",
+   "reason": "Your employment has ended. There are no regular salary payments scheduled after the final settlement"
+  },
+  {
+   "amount": 1528.56,
+   "currency": "EUR",
+   "kind": "salary_next",
+   "message_id": "message_193",
+   "reason": "Your temporary monthly pay is EUR 1528.56. The reduced amount continues for the next payroll"
+  },
+  {
+   "amount": 1548,
+   "currency": "USD",
+   "kind": "salary_base",
+   "message_id": "message_194",
+   "reason": "Your confirmed base salary is USD 1548. The commission shown for open deals is still pending approval"
+  },
+  {
+   "amount": 702,
+   "currency": "USD",
+   "kind": "salary_next",
+   "message_id": "message_195",
+   "reason": "Your next salary is reduced to USD 702. The adjustment is due to approved unpaid leave"
+  },
+  {
+   "amount": 53680,
+   "currency": "ZAR",
+   "effective_date": "2024-12-15",
+   "kind": "salary_first",
+   "message_id": "message_196",
+   "reason": "Your first salary from the new employer is ZAR 53680. It is confirmed for 2024-12-15"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_197",
+   "reason": "Tagihan kartu tambahan masih dalam penyelidikan. Dana pembalikannya belum tercatat di rekening"
+  },
+  {
+   "kind": "bill_retry",
+   "message_id": "message_198",
+   "reason": "The previous debit attempt failed. The bill is still outstanding and another debit will be attempted"
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_199",
+   "reason": "quarterly bonus is still subject to the final performance review. The final amount and payment date have not been approved yet"
+  },
+  {
+   "amount": 214000,
+   "currency": "INR",
+   "effective_date": "2024-06-15",
+   "kind": "salary_first",
+   "message_id": "message_200",
+   "reason": "Your first salary will be INR 214000. The confirmed credit date is 2024-06-15"
+  }
+ ],
+ "6d1b202cb6f9d38036af70e7a9cbd44a678a171fa65721400372e09029e4b870": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_185",
+    "pct": null,
+    "reason": "Investment value change without cash transaction"
+   }
+  }
+ },
+ "6e096e0785459e3fca5e8dd3a2cb9c34fb66258905690635d1b15391790bf6ff": [
+  {
+   "amount": 42750000,
+   "currency": "IDR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_01",
+   "pct": null,
+   "reason": "Monthly salary increase"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_02",
+   "pct": null,
+   "reason": "General payroll update with no specific amounts or dates"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_03",
+   "pct": null,
+   "reason": "Quarterly bonus pending performance review"
+  },
+  {
+   "amount": 1037.52,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_04",
+   "pct": null,
+   "reason": "Temporary reduced monthly pay"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2024-09-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_05",
+   "pct": null,
+   "reason": "Salary date moved to 2024-09-23"
+  },
+  {
+   "amount": 1422.85,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_06",
+   "pct": null,
+   "reason": "Next salary reduced due to unpaid leave"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_07",
+   "pct": null,
+   "reason": "Pending gig payout"
+  },
+  {
+   "amount": 38760000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_08",
+   "pct": null,
+   "reason": "Confirmed base salary"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_09",
+   "pct": null,
+   "reason": "Seasonal contract ended"
+  },
+  {
+   "amount": 2717,
+   "currency": "EUR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_10",
+   "pct": null,
+   "reason": "Regular salary resumes"
+  },
+  {
+   "amount": 1661,
+   "currency": "EUR",
+   "effective_date": "2026-01-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_11",
+   "pct": null,
+   "reason": "First salary from new job"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_12",
+   "pct": 12,
+   "reason": "Rent increase of 12%"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_13",
+   "pct": null,
+   "reason": "Internal transfer between accounts"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_14",
+   "pct": null,
+   "reason": "Refund initiated but not yet received"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_15",
+   "pct": null,
+   "reason": "Portfolio market value change"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_16",
+   "pct": null,
+   "reason": "Prize claim pending processing"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_17",
+   "pct": null,
+   "reason": "Prize claim closed and paid"
+  },
+  {
+   "amount": 30780000,
+   "currency": "IDR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_18",
+   "pct": null,
+   "reason": "Confirmed invoice payment"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_19",
+   "pct": null,
+   "reason": "Pending gig payout"
+  },
+  {
+   "amount": 1452,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": 653.4,
+   "kind": "salary_arrears",
+   "message_id": "message_20",
+   "pct": null,
+   "reason": "Regular salary with arrears adjustment"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_21",
+   "pct": null,
+   "reason": "Seasonal contract ended"
+  },
+  {
+   "amount": 54120,
+   "currency": "ZAR",
+   "effective_date": "2025-02-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_22",
+   "pct": null,
+   "reason": "First salary from new job"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_23",
+   "pct": null,
+   "reason": "Internal transfer between accounts"
+  },
+  {
+   "amount": 196000,
+   "currency": "INR",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_24",
+   "pct": null,
+   "reason": "Confirmed invoice payment"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_25",
+   "pct": null,
+   "reason": "Refund initiated but not yet received"
+  },
+  {
+   "amount": 2988,
+   "currency": "USD",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_26",
+   "pct": null,
+   "reason": "Monthly salary increase"
+  },
+  {
+   "amount": 21090000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": 9490500,
+   "kind": "salary_arrears",
+   "message_id": "message_27",
+   "pct": null,
+   "reason": "Regular salary with arrears adjustment"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_28",
+   "pct": null,
+   "reason": "Prize claim closed and paid"
+  },
+  {
+   "amount": 1760,
+   "currency": "EUR",
+   "effective_date": "2024-06-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_29",
+   "pct": null,
+   "reason": "First salary from new job"
+  },
+  {
+   "amount": 148000,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_30",
+   "pct": null,
+   "reason": "Remaining monthly salary after one job ended"
+  },
+  {
+   "amount": 32870000,
+   "currency": "IDR",
+   "effective_date": "2024-09-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_31",
+   "pct": null,
+   "reason": "First salary from new job"
+  },
+  {
+   "amount": 115000,
+   "currency": "INR",
+   "effective_date": "2025-02-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_32",
+   "pct": null,
+   "reason": "First salary from new job"
+  },
+  {
+   "amount": 17290000,
+   "currency": "IDR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_33",
+   "pct": null,
+   "reason": "Monthly salary increase"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_34",
+   "pct": null,
+   "reason": "Pending gig payout"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_35",
+   "pct": null,
+   "reason": "Receipt for payment"
+  },
+  {
+   "amount": 31464000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_36",
+   "pct": null,
+   "reason": "Temporary reduced monthly pay"
+  },
+  {
+   "amount": 126000,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_37",
+   "pct": null,
+   "reason": "Remaining monthly salary after one job ended"
+  },
+  {
+   "amount": 69000,
+   "currency": "INR",
+   "effective_date": "2024-06-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_38",
+   "pct": null,
+   "reason": "First salary from new job"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_39",
+   "pct": null,
+   "reason": "Refund initiated but not yet received"
+  },
+  {
+   "amount": 42460,
+   "currency": "ZAR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_40",
+   "pct": null,
+   "reason": "Monthly salary increase"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_41",
+   "pct": null,
+   "reason": "Internal transfer between accounts"
+  },
+  {
+   "amount": 25840000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_42",
+   "pct": null,
+   "reason": "Remaining monthly salary after one job ended"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_43",
+   "pct": null,
+   "reason": "Pending gig payout"
+  },
+  {
+   "amount": 530.4,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_44",
+   "pct": null,
+   "reason": "Next salary reduced due to unpaid leave"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_45",
+   "pct": null,
+   "reason": "Seasonal contract ended"
+  },
+  {
+   "amount": 2112,
+   "currency": "USD",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_46",
+   "pct": null,
+   "reason": "Confirmed invoice payment"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_47",
+   "pct": null,
+   "reason": "Refund processing"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_48",
+   "pct": null,
+   "reason": "Quarterly bonus pending performance review"
+  },
+  {
+   "amount": 116000,
+   "currency": "INR",
+   "effective_date": "2026-04-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_49",
+   "pct": null,
+   "reason": "Confirmed invoice payment"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-02-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_50",
+   "pct": null,
+   "reason": "Salary date moved to 2025-02-23"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_51",
+   "pct": 12,
+   "reason": "Rent increase of 12%"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_52",
+   "pct": null,
+   "reason": "Portfolio market value change"
+  },
+  {
+   "amount": 696,
+   "currency": "USD",
+   "effective_date": "2025-05-15",
+   "extra": null,
+   "kind": "salary_on_date",
+   "message_id": "message_53",
+   "pct": null,
+   "reason": "Confirmed salary payment on date"
+  },
+  {
+   "amount": 18700,
+   "currency": "ZAR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_54",
+   "pct": null,
+   "reason": "First salary from new job"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_55",
+   "pct": 12,
+   "reason": "Rent increase of 12%"
+  },
+  {
+   "amount": 26180,
+   "currency": "ZAR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_56",
+   "pct": null,
+   "reason": "Confirmed invoice payment"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_57",
+   "pct": null,
+   "reason": "Employment ended"
+  },
+  {
+   "amount": 3072,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_58",
+   "pct": null,
+   "reason": "Confirmed base salary"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_59",
+   "pct": null,
+   "reason": "Refund initiated but not yet received"
+  },
+  {
+   "amount": 158000,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_60",
+   "pct": null,
+   "reason": "Confirmed base salary"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_61",
+   "pct": 12,
+   "reason": "Rent increase of 12%"
+  },
+  {
+   "amount": 1752,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": 788.4,
+   "kind": "salary_arrears",
+   "message_id": "message_62",
+   "pct": null,
+   "reason": "Regular salary with arrears adjustment"
+  },
+  {
+   "amount": 62000,
+   "currency": "INR",
+   "effective_date": "2025-05-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_63",
+   "pct": null,
+   "reason": "Regular salary resumes"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_64",
+   "pct": null,
+   "reason": "Receipt for payment"
+  },
+  {
+   "amount": 8618400,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_65",
+   "pct": null,
+   "reason": "Temporary reduced monthly pay"
+  },
+  {
+   "amount": 251000,
+   "currency": "INR",
+   "effective_date": "2026-01-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_66",
+   "pct": null,
+   "reason": "Regular salary resumes"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_67",
+   "pct": null,
+   "reason": "Unapproved prize claim / potential scam"
+  },
+  {
+   "amount": 13420,
+   "currency": "ZAR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_68",
+   "pct": null,
+   "reason": "Confirmed invoice payment"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "bill_retry",
+   "message_id": "message_69",
+   "pct": null,
+   "reason": "Failed bill debit retry"
+  },
+  {
+   "amount": 49280,
+   "currency": "ZAR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_70",
+   "pct": null,
+   "reason": "Confirmed base salary"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_71",
+   "pct": null,
+   "reason": "Prize claim pending processing"
+  },
+  {
+   "amount": 924,
+   "currency": "EUR",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_72",
+   "pct": null,
+   "reason": "Confirmed invoice payment"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-05-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_73",
+   "pct": null,
+   "reason": "Salary date moved to 2025-05-23"
+  },
+  {
+   "amount": 1804,
+   "currency": "EUR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "salary_on_date",
+   "message_id": "message_74",
+   "pct": null,
+   "reason": "Confirmed salary payment on date"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_75",
+   "pct": null,
+   "reason": "Prize claim closed and paid"
+  }
+ ],
+ "6fb1f0159bc6b5a7b1b8a77efc8a6e1681a2971f4388dc462f8a3e1ca0b58617": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_152",
+    "pct": null,
+    "reason": "Refund has been initiated but not yet completed"
+   }
+  }
+ },
+ "71f44d373cf6685d64c4e8c9ea13c327c275c8d1d2e17375c2d6a8dbafbed157": [
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_106",
+   "pct": null,
+   "reason": "Dispute is open and no reversal has been posted yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_108",
+   "pct": null,
+   "reason": "Investment sale proceeds settled with no amount specified"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_110",
+   "pct": null,
+   "reason": "Prize proceeds reached account with no amount specified"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_114",
+   "pct": null,
+   "reason": "Investment sale proceeds settled with no amount specified"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_117",
+   "pct": null,
+   "reason": "Reimbursement for work expense, not regular salary"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_118",
+   "pct": null,
+   "reason": "Foreign currency transaction pending settlement"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_121",
+   "pct": null,
+   "reason": "Dispute is open and no reversal has been posted yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_133",
+   "pct": null,
+   "reason": "Foreign currency refund is still processing"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_134",
+   "pct": null,
+   "reason": "Prize claim verified but payment not yet received"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_135",
+   "pct": null,
+   "reason": "Internal transfer between accounts"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_136",
+   "pct": null,
+   "reason": "Information about minimum payments due on separate card accounts"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_144",
+   "pct": null,
+   "reason": "Quarterly bonus is still subject to review and not yet approved"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_145",
+   "pct": null,
+   "reason": "Foreign currency transaction pending settlement"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_146",
+   "pct": null,
+   "reason": "Foreign currency refund is still processing"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_150",
+   "pct": null,
+   "reason": "Reimbursement for work expense, not regular salary"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_152",
+   "pct": null,
+   "reason": "Refund initiated but not yet received"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_157",
+   "pct": null,
+   "reason": "Dispute is open and no reversal has been posted yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_159",
+   "pct": null,
+   "reason": "Quarterly bonus is pending performance review and not yet approved"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_161",
+   "pct": null,
+   "reason": "Information about minimum payments due on separate card accounts"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_163",
+   "pct": null,
+   "reason": "Investment value changed but not sold, no cash transaction"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_164",
+   "pct": null,
+   "reason": "Dispute is open and no reversal has been posted yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_167",
+   "pct": null,
+   "reason": "Foreign currency refund is still processing"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_172",
+   "pct": null,
+   "reason": "Refund initiated but not yet received"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_174",
+   "pct": null,
+   "reason": "Reimbursement for work expense, not regular salary"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_177",
+   "pct": null,
+   "reason": "Quarterly bonus is still subject to review and not yet approved"
+  }
+ ],
+ "736a4f029dbc152cae1d153ab30945c6e2ca522ae5daa2a83dd2acdbbca50dbd": {
+  "__llm__": {
+   "in": 535,
+   "model": "gemini-3.5-flash",
+   "out": 97,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_15",
+    "pct": null,
+    "reason": "Portfolio market value increase with no cash proceeds or sales generates no real cash income."
+   }
+  }
+ },
+ "737c9bf666c9efc477f3a30fd0532067d9f73402e5713232dbb8068df5be52a4": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_118",
+    "pct": null,
+    "reason": "Foreign currency transaction pending settlement"
+   }
+  }
+ },
+ "77855467b2880694f94e78b96da1240449170245beb86fe7d0078faaf4fd4173": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_71",
+    "pct": null,
+    "reason": "Prize payment is still processing and not yet credited"
+   }
+  }
+ },
+ "792427f6ac40e53265a27223d5ef1463bddbb92e349087bfaf1f73e2c82e273e": {
+  "__llm__": {
+   "in": 162,
+   "model": "gemini-3.5-flash",
+   "out": 350,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_208",
+    "pct": null,
+    "reason": "Foreign currency transaction is pending settlement"
+   }
+  }
+ },
+ "826c2c299dbf82c70bfa7dda4a7e0573adec6a6f4da22469e1612d0210d2b007": {
+  "__llm__": {
+   "in": 537,
+   "model": "gemini-3.5-flash",
+   "out": 109,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_17",
+    "pct": null,
+    "reason": "The message is about a prize claim closure and standard notification from PrizeTrack, which does not represent a regular salary or approved employment income change."
+   }
+  }
+ },
+ "82def3e1827e07833199a438ea89032057651397d755930cd3fd0a5550f37365": [
+  {
+   "request_id": "request_01",
+   "text": "We recommend paying ZAR 25,256 today. This will leave you with at least ZAR 18,000 available over the next 90 days."
+  },
+  {
+   "request_id": "request_02",
+   "text": "You can pay in 3 installments of IDR 15,952,906.67, starting 8 August 2025. This option leaves at least IDR 29,158,400 available for you."
+  },
+  {
+   "request_id": "request_03",
+   "text": "Please pay IDR 5,491,000 in full on 15 November 2019. Paying any earlier would bring your balance below the IDR 2,668,700 minimum."
+  },
+  {
+   "request_id": "request_04",
+   "text": "We suggest paying IDR 12,693,000 in full on 15 June 2024. If you pay earlier, your balance will fall below the IDR 30,686,600 minimum."
+  },
+  {
+   "request_id": "request_05",
+   "text": "Please do not make this payment by 12 January 2026. None of the options available will keep your ZAR 13,100 minimum protected."
+  },
+  {
+   "request_id": "request_06",
+   "text": "We recommend paying EUR 620.40 in full on 15 January 2026. Paying earlier would drop your balance below the EUR 800 minimum."
+  },
+  {
+   "request_id": "request_07",
+   "text": "You can choose to pay in 3 installments of INR 68,432, starting 12 September 2024. This will leave at least INR 93,000 available for you."
+  },
+  {
+   "request_id": "request_08",
+   "text": "Please pay EUR 996.60 in full on 15 April 2025. Paying earlier would take your balance below the EUR 800 minimum."
+  },
+  {
+   "request_id": "request_09",
+   "text": "We suggest paying EUR 166.61 today. This leaves you with at least EUR 600 available over the next 90 days."
+  },
+  {
+   "request_id": "request_10",
+   "text": "Please do not make this payment by 10 February 2025. None of the available options will keep your INR 225,400 minimum protected."
+  },
+  {
+   "request_id": "request_11",
+   "text": "We recommend paying IDR 13,110,000 in full on 15 May 2025. Paying earlier would take your balance below the IDR 34,140,600 minimum."
+  },
+  {
+   "request_id": "request_12",
+   "text": "You can pay in 3 installments of ZAR 22,590.19, starting 19 April 2026. This leaves at least ZAR 43,200 available."
+  },
+  {
+   "request_id": "request_13",
+   "text": "Please pay EUR 941.60 in full on 15 May 2024. Paying earlier would take your balance below the EUR 1,300 minimum."
+  },
+  {
+   "request_id": "request_14",
+   "text": "We advise not to proceed with the EUR 5,414.20 request. Although EUR 608.56 is available today, the full amount cannot be completed safely within 90 days."
+  },
+  {
+   "request_id": "request_15",
+   "text": "Please do not proceed with the EUR 3,685 request. Although EUR 8.04 is available today, the full amount cannot be completed safely within 90 days."
+  },
+  {
+   "request_id": "request_16",
+   "text": "We recommend paying INR 122,500 today. This will leave at least INR 122,400 available over the next 90 days."
+  },
+  {
+   "request_id": "request_17",
+   "text": "You can pay in 3 installments of INR 95,194.67, starting 1 March 2026. This leaves at least INR 166,100 available."
+  },
+  {
+   "request_id": "request_18",
+   "text": "Please pay EUR 3,246.10 in full on 15 September 2026. Paying earlier would take your balance below the EUR 1,400 minimum."
+  },
+  {
+   "request_id": "request_19",
+   "text": "We suggest paying INR 30,398.55 today and the remaining INR 9,261.45 on 15 September 2024. This completes your request while keeping your INR 92,800 minimum protected."
+  },
+  {
+   "request_id": "request_20",
+   "text": "Please do not make this payment by 22 February 2026. None of the available options will keep your INR 64,500 minimum protected."
+  },
+  {
+   "request_id": "request_21",
+   "text": "We recommend paying USD 1,574.40 today. This leaves at least USD 1,800 available over the next 90 days."
+  },
+  {
+   "request_id": "request_22",
+   "text": "You can pay in 3 installments of EUR 253.59, starting 8 December 2024. This leaves at least EUR 500 available."
+  },
+  {
+   "request_id": "request_23",
+   "text": "Please pay ZAR 38,016 in full on 15 July 2025. Paying earlier would take your balance below the ZAR 27,000 minimum."
+  },
+  {
+   "request_id": "request_24",
+   "text": "We advise not to proceed with the INR 109,600 request. Although INR 13,387.33 is available today, the full amount cannot be completed safely within 90 days."
+  },
+  {
+   "request_id": "request_25",
+   "text": "Please do not make this payment by 17 April 2024. None of the available options will keep your IDR 23,379,100 minimum protected."
+  }
+ ],
+ "82f804734ccfdbe1bfcbab0ba2ace4480a43ad5f35d69b915cdedcdec4451fb4": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_92",
+    "pct": null,
+    "reason": "Investment sale proceeds settled in cash account"
+   }
+  }
+ },
+ "87d0e157845547ae02f56464a4ec12fb48f79f1a26a286dacae29c4a552557ae": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_164",
+    "pct": null,
+    "reason": "Dispute is open and reversal has not been posted yet"
+   }
+  }
+ },
+ "897dfa772011ad3ff71c9cd38756dfba36de8f282f904b730506866a9c5022db": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_183",
+    "pct": null,
+    "reason": "Dispute is open and reversal has not been posted yet"
+   }
+  }
+ },
+ "8ae2d090f016f1b13dabb78674dc7cc3c45e75790473576089f116a25df17e15": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_197",
+    "pct": null,
+    "reason": "Dispute is open and reversal has not been posted yet"
+   }
+  }
+ },
+ "8b96c0995c235c5c8395fe37de46a091c3634038319cb7e0dd9468c3708d887e": {
+  "__llm__": {
+   "in": 162,
+   "model": "gemini-3.5-flash",
+   "out": 350,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_214",
+    "pct": null,
+    "reason": "Foreign currency refund is still processing and not yet settled"
+   }
+  }
+ },
+ "8c97eb8dd5bd60c556584137af775cd13db2fe4ff1708f1393c3b6af1ad2242d": {
+  "__llm__": {
+   "in": 162,
+   "model": "gemini-3.5-flash",
+   "out": 350,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_212",
+    "pct": null,
+    "reason": "Quarterly bonus is pending performance appraisal and not yet approved"
+   }
+  }
+ },
+ "9132f8b1fc3434d96956500f232e2adacea26f5ce0e130e97efb11c9cc41d065": [
+  {
+   "amount": 2988,
+   "currency": "USD",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_26",
+   "pct": null,
+   "reason": "monthly salary has increased"
+  },
+  {
+   "amount": 21090000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": 9490500,
+   "kind": "salary_arrears",
+   "message_id": "message_27",
+   "pct": null,
+   "reason": "rutin Anda untuk penggajian berikutnya adalah IDR 21090000. Penggajian yang sama mencakup penyesuaian tunggakan satu kali sebesar IDR 9490500"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_28",
+   "pct": null,
+   "reason": "The prize proceeds have reached your account after withholding. The claim is now closed and there are no further scheduled payments. There won\u2019t be another payment unless a separate prize is confirmed."
+  },
+  {
+   "amount": 1760,
+   "currency": "EUR",
+   "effective_date": "2024-06-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_29",
+   "pct": null,
+   "reason": "Your first salary will be EUR 1760. The confirmed credit date is 2024-06-15."
+  },
+  {
+   "amount": 148000,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_30",
+   "pct": null,
+   "reason": "One household employment record has ended. The remaining confirmed monthly salary is INR 148000."
+  },
+  {
+   "amount": 32870000,
+   "currency": "IDR",
+   "effective_date": "2024-09-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_31",
+   "pct": null,
+   "reason": "Gaji pertama dari perusahaan baru adalah IDR 32870000. Pembayaran sudah dikonfirmasi untuk 2024-09-15."
+  },
+  {
+   "amount": 115000,
+   "currency": "INR",
+   "effective_date": "2025-02-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_32",
+   "pct": null,
+   "reason": "Your first salary will be INR 115000. The confirmed credit date is 2025-02-15."
+  },
+  {
+   "amount": 17290000,
+   "currency": "IDR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_33",
+   "pct": null,
+   "reason": "Gaji bulanan Anda naik menjadi IDR 17290000. Perubahan ini berlaku mulai 2026-07-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_34",
+   "pct": null,
+   "reason": "Pembayaran berikutnya dari RideGrid masih tertunda. Penghasilan mingguan di aplikasi RideGrid masih dapat berubah sampai pembayaran diselesaikan. Saldo belum dapat ditarik sampai status pembayaran menunjukkan selesai."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_35",
+   "pct": null,
+   "reason": "Your property maintenance payment was received on 24 July 2026. The receipt has the final INR amount and the original due date."
+  },
+  {
+   "amount": 31464000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_36",
+   "pct": null,
+   "reason": "Gaji bulanan sementara Anda adalah IDR 31464000. Jumlah yang lebih rendah masih berlaku untuk penggajian berikutnya."
+  },
+  {
+   "amount": 126000,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_37",
+   "pct": null,
+   "reason": "One household employment record has ended. The remaining confirmed monthly salary is INR 126000."
+  },
+  {
+   "amount": 69000,
+   "currency": "INR",
+   "effective_date": "2024-06-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_38",
+   "pct": null,
+   "reason": "Your first salary from the new employer is INR 69000. It is confirmed for 2024-06-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_39",
+   "pct": null,
+   "reason": "Your refund has been initiated but has not reached your account yet. Most refunds are completed within ten business days. We\u2019ll send another update when the credit is completed."
+  },
+  {
+   "amount": 42460,
+   "currency": "ZAR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_40",
+   "pct": null,
+   "reason": "Your monthly salary has increased to ZAR 42460. The change applies from 2026-07-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_41",
+   "pct": null,
+   "reason": "The matching debit and credit came from a transfer between your two accounts. Both accounts are registered under the same account holder. Both entries will remain visible in your transaction history."
+  },
+  {
+   "amount": 25840000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_42",
+   "pct": null,
+   "reason": "Salah satu sumber pendapatan kerja rumah tangga telah berakhir. Sisa gaji bulanan yang dikonfirmasi adalah IDR 25840000."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_43",
+   "pct": null,
+   "reason": "The next WorkDash payout is still pending. The weekly earnings shown in the WorkDash app can change until the payout is closed. The balance isn\u2019t withdrawable until the payout shows as completed."
+  },
+  {
+   "amount": 530.4,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_44",
+   "pct": null,
+   "reason": "Your next salary is reduced to USD 530.40. The adjustment is due to approved unpaid leave."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_45",
+   "pct": null,
+   "reason": "The current seasonal contract has ended. No off-season income or renewal has been confirmed."
+  },
+  {
+   "amount": 2112,
+   "currency": "USD",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_46",
+   "pct": null,
+   "reason": "The client approved an invoice payment of USD 2112. Settlement is expected on 2025-08-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_47",
+   "pct": null,
+   "reason": "The foreign-currency refund is still processing. The home-currency credit may change with the settlement-date rate."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_48",
+   "pct": null,
+   "reason": "Your quarterly bonus is still subject to the final performance review. The final amount and payment date have not been approved yet."
+  },
+  {
+   "amount": 116000,
+   "currency": "INR",
+   "effective_date": "2026-04-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_49",
+   "pct": null,
+   "reason": "The client approved an invoice payment of INR 116000. Settlement is expected on 2026-04-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-02-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_50",
+   "pct": null,
+   "reason": "Your confirmed salary is now expected on 2025-02-23. This replaces the payroll date shown in the earlier update."
+  }
+ ],
+ "914de82c814efcaae2ed082082462d4d3abb02b21dcfb9e09db580822d9630bf": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_106",
+    "pct": null,
+    "reason": "Dispute is open and reversal is not yet posted"
+   }
+  }
+ },
+ "91b151de2351c5af23b97b9c2f14207fea307f3a6fc834d81a1aaf81efd6aa84": {
+  "__llm__": {
+   "in": 162,
+   "model": "gemini-3.5-flash",
+   "out": 350,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_213",
+    "pct": null,
+    "reason": "Internal transfer between two accounts owned by the same person"
+   }
+  }
+ },
+ "92803dd04d611b16ac1f764c76601355422a59e3fdb79b85245b0a73c6abb58f": [
+  {
+   "amount": 1419,
+   "currency": "EUR",
+   "effective_date": "2026-04-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_76",
+   "pct": null,
+   "reason": "Approved invoice payment from WorkPort"
+  },
+  {
+   "amount": 164880,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_77",
+   "pct": null,
+   "reason": "Temporary monthly pay from Cobalt Systems"
+  },
+  {
+   "amount": 35860,
+   "currency": "ZAR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_78",
+   "pct": null,
+   "reason": "Confirmed base salary from Greenfield Foods"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_79",
+   "pct": null,
+   "reason": "Portfolio market value change from Nova Securities"
+  },
+  {
+   "amount": 1815,
+   "currency": "EUR",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_80",
+   "pct": null,
+   "reason": "First salary from new employer HarborWorks"
+  },
+  {
+   "amount": 2123,
+   "currency": "EUR",
+   "effective_date": "2025-05-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_81",
+   "pct": null,
+   "reason": "First salary from Greenfield Foods"
+  },
+  {
+   "amount": 33440,
+   "currency": "ZAR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_82",
+   "pct": null,
+   "reason": "Confirmed base salary from Riverline Retail"
+  },
+  {
+   "amount": 16720,
+   "currency": "ZAR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_83",
+   "pct": null,
+   "reason": "Approved invoice payment from WorkPort"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_84",
+   "pct": null,
+   "reason": "Hubungan kerja telah berakhir dengan HarborWorks"
+  },
+  {
+   "amount": 627,
+   "currency": "EUR",
+   "effective_date": "2024-06-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_85",
+   "pct": null,
+   "reason": "First salary from BrightPath Media"
+  },
+  {
+   "amount": 1296,
+   "currency": "USD",
+   "effective_date": "2026-09-15",
+   "extra": null,
+   "kind": "salary_on_date",
+   "message_id": "message_86",
+   "pct": null,
+   "reason": "Confirmed salary credit from employer"
+  },
+  {
+   "amount": 148200,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_87",
+   "pct": null,
+   "reason": "Next salary reduced due to unpaid leave at Riverline Retail"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_88",
+   "pct": null,
+   "reason": "Prize proceeds already received from RewardLane"
+  },
+  {
+   "amount": 1188,
+   "currency": "EUR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_89",
+   "pct": null,
+   "reason": "Monthly salary increase at Northstar Labs"
+  },
+  {
+   "amount": 759,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": 341.55,
+   "kind": "salary_arrears",
+   "message_id": "message_90",
+   "pct": null,
+   "reason": "Regular salary plus one-time arrears adjustment at Cedar Health"
+  },
+  {
+   "amount": 176000,
+   "currency": "INR",
+   "effective_date": "2025-05-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_91",
+   "pct": null,
+   "reason": "Regular salary resumes at Cobalt Systems"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_92",
+   "pct": null,
+   "reason": "Hasil penjualan investasi sudah masuk ke rekening tunai Arbor Invest"
+  },
+  {
+   "amount": 15390000,
+   "currency": "IDR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_93",
+   "pct": null,
+   "reason": "Pembayaran faktur disetujui oleh klien di ProjectPay"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_94",
+   "pct": null,
+   "reason": "Pembayaran berikutnya dari TaskSprint masih tertunda"
+  },
+  {
+   "amount": 748,
+   "currency": "EUR",
+   "effective_date": "2025-11-15",
+   "extra": null,
+   "kind": "salary_on_date",
+   "message_id": "message_95",
+   "pct": null,
+   "reason": "Confirmed salary from Greenfield Foods"
+  },
+  {
+   "amount": 152000,
+   "currency": "INR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_96",
+   "pct": null,
+   "reason": "Approved invoice payment from client via ClientDesk"
+  },
+  {
+   "amount": 50160,
+   "currency": "ZAR",
+   "effective_date": "2024-09-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_97",
+   "pct": null,
+   "reason": "Regular salary resumes at Cedar Health"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_98",
+   "pct": null,
+   "reason": "Quarterly bonus pending final performance review at Riverline Retail"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_99",
+   "pct": null,
+   "reason": "Prize proceeds already received from WinPoint"
+  },
+  {
+   "amount": 2177.28,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_100",
+   "pct": null,
+   "reason": "Temporary monthly pay at BrightPath Media"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-05-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_101",
+   "pct": null,
+   "reason": "Confirmed salary date updated at Cobalt Systems"
+  },
+  {
+   "amount": 1193.4,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_102",
+   "pct": null,
+   "reason": "Next salary reduced due to unpaid leave at Cedar Health"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_103",
+   "pct": null,
+   "reason": "Kontrak musiman telah berakhir di HarborWorks"
+  },
+  {
+   "amount": 828,
+   "currency": "USD",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_104",
+   "pct": null,
+   "reason": "Monthly salary increase at Riverline Retail"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_105",
+   "pct": 12,
+   "reason": "Renewed lease increases monthly rent at HomePortal"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_106",
+   "pct": null,
+   "reason": "Extra card charge dispute open at Summit Bank"
+  },
+  {
+   "amount": 31900,
+   "currency": "ZAR",
+   "effective_date": "2025-02-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_107",
+   "pct": null,
+   "reason": "First salary from HarborWorks"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_108",
+   "pct": null,
+   "reason": "Investment sale proceeds settled at ClearFund"
+  },
+  {
+   "amount": 2040,
+   "currency": "USD",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_109",
+   "pct": null,
+   "reason": "Approved invoice payment from client via InvoiceFlow"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_110",
+   "pct": null,
+   "reason": "Prize proceeds reached account at ClaimDesk"
+  },
+  {
+   "amount": 864,
+   "currency": "USD",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_111",
+   "pct": null,
+   "reason": "First salary from Cobalt Systems"
+  },
+  {
+   "amount": 258000,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": 116100,
+   "kind": "salary_arrears",
+   "message_id": "message_112",
+   "pct": null,
+   "reason": "Regular salary plus one-time arrears adjustment at Cobalt Systems"
+  },
+  {
+   "amount": 1529,
+   "currency": "EUR",
+   "effective_date": "2026-04-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_113",
+   "pct": null,
+   "reason": "Regular salary resumes at Greenfield Foods"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_114",
+   "pct": null,
+   "reason": "Investment sale proceeds settled at StackWealth"
+  },
+  {
+   "amount": 893.75,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_115",
+   "pct": null,
+   "reason": "Next salary reduced due to unpaid leave at Riverline Retail"
+  },
+  {
+   "amount": 46170000,
+   "currency": "IDR",
+   "effective_date": "2024-09-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_116",
+   "pct": null,
+   "reason": "Gaji pertama dari perusahaan baru Northstar Labs"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_117",
+   "pct": null,
+   "reason": "Reimbursement for work expense at Greenfield Foods"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_118",
+   "pct": null,
+   "reason": "Foreign currency transaction settling at ShopNest"
+  },
+  {
+   "amount": 1628,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_119",
+   "pct": null,
+   "reason": "Remaining confirmed monthly salary after one record ended at Cedar Health"
+  },
+  {
+   "amount": 84000,
+   "currency": "INR",
+   "effective_date": "2025-05-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_120",
+   "pct": null,
+   "reason": "Regular salary resumes at Greenfield Foods"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_121",
+   "pct": null,
+   "reason": "Extra card charge dispute open at Northfield Bank"
+  },
+  {
+   "amount": 23940000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_122",
+   "pct": null,
+   "reason": "Gaji bulanan sementara di HarborWorks"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_123",
+   "pct": null,
+   "reason": "ShiftPay payout is still pending"
+  },
+  {
+   "amount": 1672,
+   "currency": "EUR",
+   "effective_date": "2024-06-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_124",
+   "pct": null,
+   "reason": "First salary from new employer Riverline Retail"
+  },
+  {
+   "amount": 26790000,
+   "currency": "IDR",
+   "effective_date": "2025-11-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_125",
+   "pct": null,
+   "reason": "Gaji pertama dijadwalkan di HarborWorks"
+  },
+  {
+   "amount": 29070000,
+   "currency": "IDR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_126",
+   "pct": null,
+   "reason": "Kenaikan gaji bulanan di Cedar Health"
+  },
+  {
+   "amount": 30400000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": 13680000,
+   "kind": "salary_arrears",
+   "message_id": "message_127",
+   "pct": null,
+   "reason": "Gaji rutin ditambah penyesuaian tunggakan satu kali di Greenfield Foods"
+  },
+  {
+   "amount": 44270000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_128",
+   "pct": null,
+   "reason": "Gaji pokok yang dikonfirmasi di BrightPath Media"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_129",
+   "pct": null,
+   "reason": "Employment has ended at Cedar Health"
+  },
+  {
+   "amount": 2340,
+   "currency": "USD",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_130",
+   "pct": null,
+   "reason": "Approved invoice payment from client via InvoiceFlow"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-05-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_131",
+   "pct": null,
+   "reason": "Confirmed salary date updated at BrightPath Media"
+  },
+  {
+   "amount": 137150,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_132",
+   "pct": null,
+   "reason": "Next salary reduced due to unpaid leave at Greenfield Foods"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_133",
+   "pct": null,
+   "reason": "Foreign currency refund processing at CartLane"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_134",
+   "pct": null,
+   "reason": "Klaim hadiah masih dalam proses pembayaran di WinPoint"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_135",
+   "pct": null,
+   "reason": "Internal transfer between accounts at Cedar Bank"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_136",
+   "pct": null,
+   "reason": "Minimum payments due reminder from Summit Bank"
+  },
+  {
+   "amount": 1284,
+   "currency": "USD",
+   "effective_date": "2025-11-15",
+   "extra": null,
+   "kind": "salary_on_date",
+   "message_id": "message_137",
+   "pct": null,
+   "reason": "Confirmed salary from Greenfield Foods"
+  },
+  {
+   "amount": 1924.56,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_138",
+   "pct": null,
+   "reason": "Temporary monthly pay at Riverline Retail"
+  },
+  {
+   "amount": 847,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_139",
+   "pct": null,
+   "reason": "Confirmed base salary at Cedar Health"
+  },
+  {
+   "amount": 1731.6,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_140",
+   "pct": null,
+   "reason": "Next salary reduced due to unpaid leave at BrightPath Media"
+  },
+  {
+   "amount": 2376,
+   "currency": "EUR",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_141",
+   "pct": null,
+   "reason": "Approved invoice payment from client via FreelanceHub"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_142",
+   "pct": null,
+   "reason": "Potential scam / fee request from RewardNow"
+  },
+  {
+   "amount": 59000,
+   "currency": "INR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_143",
+   "pct": null,
+   "reason": "First salary from Northstar Labs"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_144",
+   "pct": null,
+   "reason": "Quarterly bonus pending final performance review at BrightPath Media"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_145",
+   "pct": null,
+   "reason": "Foreign currency transaction settling at CartLane"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_146",
+   "pct": null,
+   "reason": "Foreign currency refund processing at BrightBasket"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_147",
+   "pct": 12,
+   "reason": "Renewed lease increases monthly rent at HomePortal"
+  },
+  {
+   "amount": 31889,
+   "currency": "ZAR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_148",
+   "pct": null,
+   "reason": "Next salary reduced due to unpaid leave at HarborWorks"
+  },
+  {
+   "amount": 145000,
+   "currency": "INR",
+   "effective_date": "2024-09-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_149",
+   "pct": null,
+   "reason": "First salary from new employer BrightPath Media"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_150",
+   "pct": null,
+   "reason": "Reimbursement for work expense at Cedar Health"
+  }
+ ],
+ "9bad452b1fd1a6792f480f0df331498dae16691456f2a50e75a264a36e3bc711": {
+  "__llm__": {
+   "in": 523,
+   "model": "gemini-3.5-flash",
+   "out": 66,
+   "result": {
+    "confirmed": false,
+    "kind": "no_effect",
+    "message_id": "message_14",
+    "reason": "Refund has been initiated but has not reached the account yet, and refunds not yet received have no effect."
+   }
+  }
+ },
+ "9bd188d0195e0ecadf960be37be622681552dba976709108fd22856bbf739acf": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_41",
+    "pct": null,
+    "reason": "Internal transfer between accounts"
+   }
+  }
+ },
+ "9ee2ebe0b1d1b14bfb0b5578b2b9f6416111c5d911027ec534ed92ac523b2fc7": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_28",
+    "pct": null,
+    "reason": "Prize proceeds received"
+   }
+  }
+ },
+ "a1f3921fcff8d4432d596be59247b2350335473cd97d9911f1318c269895ad5a": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_199",
+    "pct": null,
+    "reason": "Quarterly bonus is pending performance review and not yet approved"
+   }
+  }
+ },
+ "a3b459e635a1c8ead0c01b319acb5c7b5c4abc670c296e005b3dc4a23516d378": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_133",
+    "pct": null,
+    "reason": "Refund is still processing"
+   }
+  }
+ },
+ "a7f3ed9560c327b2292e4176e4cde9354211a51f914f7f33b33e5fa31ba2154c": [
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-05-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_101",
+   "pct": null,
+   "reason": "Your confirmed salary is now expected on 2025-05-23. This replaces the payroll date shown in the earlier update."
+  },
+  {
+   "amount": 1193.4,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_102",
+   "pct": null,
+   "reason": "Your next salary is reduced to USD 1193.40. The adjustment is due to approved unpaid leave."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_103",
+   "pct": null,
+   "reason": "Kontrak musiman saat ini telah berakhir. Belum ada pendapatan di luar musim atau perpanjangan kontrak yang dikonfirmasi."
+  },
+  {
+   "amount": 828,
+   "currency": "USD",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_104",
+   "pct": null,
+   "reason": "Your monthly salary has increased to USD 828. The change applies from 2026-07-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_105",
+   "pct": 12,
+   "reason": "The renewed lease increases monthly rent by 12%. The new amount applies from the next rent payment."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_106",
+   "pct": null,
+   "reason": "The extra card charge is still being investigated. A reversal has not been posted to the account yet."
+  },
+  {
+   "amount": 31900,
+   "currency": "ZAR",
+   "effective_date": "2025-02-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_107",
+   "pct": null,
+   "reason": "Your first salary will be ZAR 31900. The confirmed credit date is 2025-02-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_108",
+   "pct": null,
+   "reason": "The proceeds from your investment sale have settled in the cash account."
+  },
+  {
+   "amount": 2040,
+   "currency": "USD",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_109",
+   "pct": null,
+   "reason": "The client approved an invoice payment of USD 2040. Settlement is expected on 2024-12-15;"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_110",
+   "pct": null,
+   "reason": "The prize proceeds have reached your account after withholding."
+  },
+  {
+   "amount": 864,
+   "currency": "USD",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_111",
+   "pct": null,
+   "reason": "Your first salary will be USD 864. The confirmed credit date is 2026-07-15."
+  },
+  {
+   "amount": 258000,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": 116100,
+   "kind": "salary_arrears",
+   "message_id": "message_112",
+   "pct": null,
+   "reason": "Your regular salary for the next payroll is INR 258000. The same payroll includes a one-time arrears adjustment of INR 116100."
+  },
+  {
+   "amount": 1529,
+   "currency": "EUR",
+   "effective_date": "2026-04-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_113",
+   "pct": null,
+   "reason": "Regular salary of EUR 1529 resumes on 2026-04-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_114",
+   "pct": null,
+   "reason": "The proceeds from your investment sale have settled in the cash account."
+  },
+  {
+   "amount": 893.75,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_115",
+   "pct": null,
+   "reason": "Your next salary is reduced to EUR 893.75. The adjustment is due to approved unpaid leave."
+  },
+  {
+   "amount": 46170000,
+   "currency": "IDR",
+   "effective_date": "2024-09-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_116",
+   "pct": null,
+   "reason": "Gaji pertama dari perusahaan baru adalah IDR 46170000. Pembayaran sudah dikonfirmasi untuk 2024-09-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_117",
+   "pct": null,
+   "reason": "The latest employer credit is the reimbursement for your earlier work expense."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_118",
+   "pct": null,
+   "reason": "The bill was charged in a foreign currency. Your bank will confirm the final home-currency amount when the transaction settles."
+  },
+  {
+   "amount": 1628,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_119",
+   "pct": null,
+   "reason": "One household employment record has ended. The remaining confirmed monthly salary is EUR 1628."
+  },
+  {
+   "amount": 84000,
+   "currency": "INR",
+   "effective_date": "2025-05-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_120",
+   "pct": null,
+   "reason": "Regular salary of INR 84000 resumes on 2025-05-15."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_121",
+   "pct": null,
+   "reason": "The extra card charge is still being investigated. A reversal has not been posted to the account yet."
+  },
+  {
+   "amount": 23940000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_122",
+   "pct": null,
+   "reason": "Gaji bulanan sementara Anda adalah IDR 23940000. Jumlah yang lebih rendah masih berlaku untuk penggajian berikutnya."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_123",
+   "pct": null,
+   "reason": "The next ShiftPay payout is still pending. The weekly earnings shown in the ShiftPay app can change until the payout is closed."
+  },
+  {
+   "amount": 1672,
+   "currency": "EUR",
+   "effective_date": "2024-06-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_124",
+   "pct": null,
+   "reason": "Your first salary from the new employer is EUR 1672. It is confirmed for 2024-06-15."
+  },
+  {
+   "amount": 26790000,
+   "currency": "IDR",
+   "effective_date": "2025-11-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_125",
+   "pct": null,
+   "reason": "Gaji pertama Anda sebesar IDR 26790000 dijadwalkan pada 2025-11-15."
+  }
+ ],
+ "add140d8fbdc31f2967ecf7f5171531901878af4184d82549ae759e3fe6496b4": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_172",
+    "pct": null,
+    "reason": "Refund has been initiated but not yet completed"
+   }
+  }
+ },
+ "af920a22523c212d4014a80e89ccd6e57b6d293614d93db9f815c9c91e6acbaa": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_136",
+    "pct": null,
+    "reason": "Reminder about minimum payments on separate card accounts"
+   }
+  }
+ },
+ "b4712c73b76e3a39d7bac183f2b1e5081715aba5038bb05b533483d6df6f8676": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_79",
+    "pct": null,
+    "reason": "Market value change"
+   }
+  }
+ },
+ "b778cbb86a7fd62a51db0ea20d4406b45ae57567f38a2c3b7d0cd9a3c55972cc": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_145",
+    "pct": null,
+    "reason": "Foreign currency transaction is not yet completed"
+   }
+  }
+ },
+ "be372f747d5006882e12207e80851f49e4ea985e02b14c5d0a31a81026f2d459": [
+  {
+   "amount": 4365000.0,
+   "confidence": 0.99,
+   "currency": "IDR",
+   "date": "2019-09-02",
+   "doc_type": "payslip",
+   "image_id": "image_01"
+  },
+  {
+   "amount": 100000.0,
+   "confidence": 0.95,
+   "currency": "INR",
+   "date": "2023-08-11",
+   "doc_type": "receipt",
+   "image_id": "image_02"
+  },
+  {
+   "amount": 41272.0,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": "2026-02-27",
+   "doc_type": "receipt",
+   "image_id": "image_03"
+  },
+  {
+   "amount": 2854.0,
+   "confidence": 0.9,
+   "currency": "INR",
+   "date": null,
+   "doc_type": "bill",
+   "image_id": "image_04"
+  },
+  {
+   "amount": 704.05,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": "2026-02-06",
+   "doc_type": "bill",
+   "image_id": "image_05"
+  },
+  {
+   "amount": 1995.0,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": null,
+   "doc_type": "bill",
+   "image_id": "image_06"
+  },
+  {
+   "amount": 8528.1,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": "2025-10-29",
+   "doc_type": "receipt",
+   "image_id": "image_07"
+  },
+  {
+   "amount": 15339.0,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": "2026-07-24",
+   "doc_type": "receipt",
+   "image_id": "image_08"
+  },
+  {
+   "amount": 723.0,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": "2026-06-07",
+   "doc_type": "receipt",
+   "image_id": "image_09"
+  },
+  {
+   "amount": 79679.26,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": null,
+   "doc_type": "bill",
+   "image_id": "image_10"
+  },
+  {
+   "amount": 3650.0,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": "2023-01-19",
+   "doc_type": "bill",
+   "image_id": "image_11"
+  },
+  {
+   "amount": 33.5,
+   "confidence": 0.99,
+   "currency": "USD",
+   "date": "2025-10-01",
+   "doc_type": "receipt",
+   "image_id": "image_12"
+  },
+  {
+   "amount": 2298.0,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": null,
+   "doc_type": "receipt",
+   "image_id": "image_13"
+  },
+  {
+   "amount": 4543.0,
+   "confidence": 0.9,
+   "currency": "INR",
+   "date": null,
+   "doc_type": "receipt",
+   "image_id": "image_14"
+  },
+  {
+   "amount": 9968.0,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": "2026-06-07",
+   "doc_type": "bill",
+   "image_id": "image_15"
+  },
+  {
+   "amount": 393.22,
+   "confidence": 0.99,
+   "currency": "INR",
+   "date": "2026-09-03",
+   "doc_type": "bill",
+   "image_id": "image_16"
+  }
+ ],
+ "be4df9a189a3ae9e9c1e69ea219feab8849058d79c985a8cc077f31c6ed00170": {
+  "__llm__": {
+   "in": 162,
+   "model": "gemini-3.5-flash",
+   "out": 350,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_207",
+    "pct": null,
+    "reason": "Portfolio market value increase with no cash proceeds generated"
+   }
+  }
+ },
+ "bfdd819b70b6cd2bad287b4b61c3ed215b103aa3d11ea8ad4abe323d0fd743d1": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_121",
+    "pct": null,
+    "reason": "Dispute is open and reversal is not yet posted"
+   }
+  }
+ },
+ "c5eee83f945b6ee66507b9544339c3c3c35134ef84fd03840242e82711b3816c": [
+  {
+   "kind": "rent_increase",
+   "message_id": "message_51",
+   "pct": 12,
+   "reason": "The renewed lease increases monthly rent by 12%. The new amount applies from the next rent payment."
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_52",
+   "reason": "Your portfolio\u2019s displayed market value has increased substantially. No units have been sold and no cash proceeds have been generated."
+  },
+  {
+   "amount": 696,
+   "currency": "USD",
+   "effective_date": "2025-05-15",
+   "kind": "salary_on_date",
+   "message_id": "message_53",
+   "reason": "Gaji sebesar USD 696 dikonfirmasi untuk 2025-05-15."
+  },
+  {
+   "amount": 18700,
+   "currency": "ZAR",
+   "effective_date": "2026-07-15",
+   "kind": "salary_first",
+   "message_id": "message_54",
+   "reason": "Your first salary will be ZAR 18700. The confirmed credit date is 2026-07-15."
+  },
+  {
+   "kind": "rent_increase",
+   "message_id": "message_55",
+   "pct": 12,
+   "reason": "The renewed lease increases monthly rent by 12%. The new amount will be used for the next rent payment."
+  },
+  {
+   "kind": "income_uncertain",
+   "message_id": "message_56",
+   "reason": "The client approved an invoice payment of ZAR 26180. Settlement is expected on 2025-08-15; the other submitted invoices are still awaiting approval."
+  },
+  {
+   "kind": "income_end",
+   "message_id": "message_57",
+   "reason": "Your employment has ended. There are no regular salary payments scheduled after the final settlement."
+  },
+  {
+   "amount": 3072,
+   "currency": "USD",
+   "kind": "salary_base",
+   "message_id": "message_58",
+   "reason": "Your confirmed base salary is USD 3072. The commission shown for open deals is still pending approval."
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_59",
+   "reason": "Your refund has been initiated but has not reached your account yet."
+  },
+  {
+   "amount": 158000,
+   "currency": "INR",
+   "kind": "salary_base",
+   "message_id": "message_60",
+   "reason": "Your confirmed base salary is INR 158000. The commission shown for open deals is still pending approval."
+  },
+  {
+   "kind": "rent_increase",
+   "message_id": "message_61",
+   "pct": 12,
+   "reason": "The renewed lease increases monthly rent by 12%. The new amount applies from the next rent payment."
+  },
+  {
+   "amount": 1752,
+   "currency": "USD",
+   "extra": 788.4,
+   "kind": "salary_arrears",
+   "message_id": "message_62",
+   "reason": "Your regular salary for the next payroll is USD 1752. The same payroll includes a one-time arrears adjustment of USD 788.40."
+  },
+  {
+   "amount": 62000,
+   "currency": "INR",
+   "effective_date": "2025-05-15",
+   "kind": "salary_resume",
+   "message_id": "message_63",
+   "reason": "Regular salary of INR 62000 resumes on 2025-05-15."
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_64",
+   "reason": "BuyBox confirmed that the tote bag order was paid in INR on 3 April 2026. The receipt has the final amount."
+  },
+  {
+   "amount": 8618400,
+   "currency": "IDR",
+   "kind": "salary_next",
+   "message_id": "message_65",
+   "reason": "Gaji bulanan sementara Anda adalah IDR 8618400. Jumlah yang lebih rendah masih berlaku untuk penggajian berikutnya."
+  },
+  {
+   "amount": 251000,
+   "currency": "INR",
+   "effective_date": "2026-01-15",
+   "kind": "salary_resume",
+   "message_id": "message_66",
+   "reason": "Regular salary of INR 251000 resumes on 2026-01-15."
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_67",
+   "reason": "You\u2019ve been selected for a cash prize. Pay the release charge today to receive the funds immediately."
+  },
+  {
+   "kind": "income_uncertain",
+   "message_id": "message_68",
+   "reason": "The client approved an invoice payment of ZAR 13420. Settlement is expected on 2026-07-15; the other submitted invoices are still awaiting approval."
+  },
+  {
+   "kind": "bill_retry",
+   "message_id": "message_69",
+   "reason": "The previous debit attempt failed. The bill is still outstanding and another debit will be attempted."
+  },
+  {
+   "amount": 49280,
+   "currency": "ZAR",
+   "kind": "salary_base",
+   "message_id": "message_70",
+   "reason": "Your confirmed base salary is ZAR 49280. The commission shown for open deals is still pending approval."
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_71",
+   "reason": "Your prize claim has been verified and is still in payment processing. The payment has not been credited to your account yet."
+  },
+  {
+   "amount": 924,
+   "currency": "EUR",
+   "effective_date": "2024-12-15",
+   "kind": "income_uncertain",
+   "message_id": "message_72",
+   "reason": "The client approved an invoice payment of EUR 924. Settlement is expected on 2024-12-15; the other submitted invoices are still awaiting approval."
+  },
+  {
+   "effective_date": "2025-05-23",
+   "kind": "salary_date",
+   "message_id": "message_73",
+   "reason": "Your confirmed salary is now expected on 2025-05-23. This replaces the payroll date shown in the earlier update."
+  },
+  {
+   "amount": 1804,
+   "currency": "EUR",
+   "effective_date": "2025-08-15",
+   "kind": "salary_on_date",
+   "message_id": "message_74",
+   "reason": "Your salary of EUR 1804 is confirmed for 2025-08-15."
+  },
+  {
+   "kind": "no_effect",
+   "message_id": "message_75",
+   "reason": "The prize proceeds have reached your account after withholding. There won\u2019t be another payment unless a separate prize is confirmed."
+  }
+ ],
+ "c881f1bd00d6c7d191464a6298aeffc5091678f10ba909b0e669ec2de20d0abd": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_98",
+    "pct": null,
+    "reason": "Quarterly bonus not yet approved"
+   }
+  }
+ },
+ "c8ce81ebf5b8488dc33dc50aff20ce4376f316ea42bf2a76544a3f44a726a124": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_135",
+    "pct": null,
+    "reason": "Internal transfer between accounts"
+   }
+  }
+ },
+ "cdd460178925ff02a287d76a844ef2afadea46c7c43b689da8c703958c55ecaa": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_47",
+    "pct": null,
+    "reason": "Refund is still processing"
+   }
+  }
+ },
+ "ce825056b1d39b1d6843943d0deb4ad294b32e88e672352d814d6b0637b72747": [
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_183",
+   "pct": null,
+   "reason": "Dispute is open and reversal has not been posted yet."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_184",
+   "pct": null,
+   "reason": "Foreign-currency refund is still processing."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_185",
+   "pct": null,
+   "reason": "Investment value fell but holding has not been sold and no cash transaction occurred."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_197",
+   "pct": null,
+   "reason": "Dispute is open and reversal has not been posted yet."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_199",
+   "pct": null,
+   "reason": "Quarterly bonus is pending final performance review and has not been approved yet."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_202",
+   "pct": null,
+   "reason": "Internal transfer between two accounts under the same holder."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_205",
+   "pct": null,
+   "reason": "Investment value fell but holding has not been sold and no cash transaction occurred."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_207",
+   "pct": null,
+   "reason": "Portfolio market value increased but no units have been sold and no cash generated."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_208",
+   "pct": null,
+   "reason": "Foreign currency transaction is pending settlement."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_209",
+   "pct": null,
+   "reason": "Prize claim is still processing and has not been credited yet."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_212",
+   "pct": null,
+   "reason": "Quarterly bonus is pending performance review and has not been approved yet."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_213",
+   "pct": null,
+   "reason": "Internal transfer between two accounts under the same holder."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_214",
+   "pct": null,
+   "reason": "Foreign-currency refund is still processing."
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_215",
+   "pct": null,
+   "reason": "Refund is processed but has not been credited to the account yet."
+  }
+ ],
+ "d4989cd2163bc2c5ac0b0bc9851fefa4a0598579449f3644b52f98e4dd3f875c": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_52",
+    "pct": null,
+    "reason": "Market value change with no cash proceeds"
+   }
+  }
+ },
+ "d7424bf4671117c7d188f67403ed5167bf1907eeaadf0c3ddb8230c5011f2085": {
+  "amount": 2854,
+  "confidence": 0.9,
+  "currency": "INR",
+  "date": null,
+  "doc_type": "bill"
+ },
+ "de726fa8bc620bf311066b4b4c3997fcb14929d084d2d203a76a9fdb82b6a03a": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_23",
+    "pct": null,
+    "reason": "Internal transfer between accounts"
+   }
+  }
+ },
+ "e0564b7c573ae405b2006024beb1c9c209524a601cee62dc7cd6c6ca1cdc92ff": [
+  {
+   "amount": 627,
+   "currency": "EUR",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_151",
+   "pct": null,
+   "reason": "monthly salary increased to EUR 627"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_152",
+   "pct": null,
+   "reason": "refund initiated but not yet received"
+  },
+  {
+   "amount": 1750.32,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_153",
+   "pct": null,
+   "reason": "temporary monthly pay of EUR 1750.32 for the next payroll"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-08-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_154",
+   "pct": null,
+   "reason": "confirmed salary date moved to 2025-08-23"
+  },
+  {
+   "amount": 1222.65,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_155",
+   "pct": null,
+   "reason": "next salary reduced to EUR 1222.65 due to unpaid leave"
+  },
+  {
+   "amount": 38190000,
+   "currency": "IDR",
+   "effective_date": "2025-11-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_156",
+   "pct": null,
+   "reason": "gaji pertama sebesar IDR 38190000 dijadwalkan pada 2025-11-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_157",
+   "pct": null,
+   "reason": "extra card charge dispute open, reversal not posted yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_158",
+   "pct": null,
+   "reason": "pembayaran berikutnya dari ShiftPay masih tertunda dan dapat berubah"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_159",
+   "pct": null,
+   "reason": "bonus kuartalan masih menunggu hasil akhir penilaian kinerja dan belum disetujui"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_160",
+   "pct": null,
+   "reason": "kontrak musiman telah berakhir dan tidak ada perpanjangan yang dikonfirmasi"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_161",
+   "pct": null,
+   "reason": "minimum payments due on separate card accounts"
+  },
+  {
+   "amount": 2024,
+   "currency": "EUR",
+   "effective_date": "2026-01-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_162",
+   "pct": null,
+   "reason": "first salary of EUR 2024 confirmed for 2026-01-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_163",
+   "pct": null,
+   "reason": "nilai investasi turun tetapi belum dijual"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_164",
+   "pct": null,
+   "reason": "extra card charge dispute open, reversal not posted yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": "2025-02-23",
+   "extra": null,
+   "kind": "salary_date",
+   "message_id": "message_165",
+   "pct": null,
+   "reason": "tanggal gajian yang dikonfirmasi bergeser ke 2025-02-23"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_166",
+   "pct": null,
+   "reason": "seasonal contract has ended"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_167",
+   "pct": null,
+   "reason": "foreign-currency refund is still processing"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_uncertain",
+   "message_id": "message_168",
+   "pct": null,
+   "reason": "next QuickCrew payout is still pending and subject to change"
+  },
+  {
+   "amount": 2424,
+   "currency": "USD",
+   "effective_date": "2026-07-15",
+   "extra": null,
+   "kind": "salary_raise",
+   "message_id": "message_169",
+   "pct": null,
+   "reason": "monthly salary increased to USD 2424"
+  },
+  {
+   "amount": 1914,
+   "currency": "EUR",
+   "effective_date": "2026-04-15",
+   "extra": null,
+   "kind": "salary_resume",
+   "message_id": "message_170",
+   "pct": null,
+   "reason": "regular salary of EUR 1914 resumes on 2026-04-15"
+  },
+  {
+   "amount": 1346.4,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_171",
+   "pct": null,
+   "reason": "temporary monthly pay of EUR 1346.40 for the next payroll"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_172",
+   "pct": null,
+   "reason": "refund initiated but not yet received"
+  },
+  {
+   "amount": 35200,
+   "currency": "ZAR",
+   "effective_date": "2026-01-15",
+   "extra": null,
+   "kind": "income_once",
+   "message_id": "message_173",
+   "pct": null,
+   "reason": "confirmed invoice payment of ZAR 35200 expected on 2026-01-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_174",
+   "pct": null,
+   "reason": "penggantian biaya kerja sebelumnya tanpa rincian jumlah baru"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "rent_increase",
+   "message_id": "message_175",
+   "pct": 12,
+   "reason": "biaya sewa bulanan naik sebesar 12%"
+  },
+  {
+   "amount": 260000,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": 117000,
+   "kind": "salary_arrears",
+   "message_id": "message_176",
+   "pct": null,
+   "reason": "regular salary of INR 260000 plus one-time arrears of INR 117000"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_177",
+   "pct": null,
+   "reason": "quarterly bonus is still subject to review and not approved yet"
+  },
+  {
+   "amount": 30400000,
+   "currency": "IDR",
+   "effective_date": "2026-04-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_178",
+   "pct": null,
+   "reason": "gaji pertama sebesar IDR 30400000 dikonfirmasi pada 2026-04-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "bill_retry",
+   "message_id": "message_179",
+   "pct": null,
+   "reason": "previous debit attempt failed, bill is still outstanding and will be debited again"
+  },
+  {
+   "amount": 2827,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_180",
+   "pct": null,
+   "reason": "one household employment record ended, remaining salary is EUR 2827"
+  },
+  {
+   "amount": 2772,
+   "currency": "EUR",
+   "effective_date": "2024-06-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_181",
+   "pct": null,
+   "reason": "first salary of EUR 2772 confirmed for 2024-06-15"
+  },
+  {
+   "amount": 16910000,
+   "currency": "IDR",
+   "effective_date": "2025-11-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_182",
+   "pct": null,
+   "reason": "gaji pertama sebesar IDR 16910000 dijadwalkan pada 2025-11-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_183",
+   "pct": null,
+   "reason": "extra card charge dispute open, reversal not posted yet"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_184",
+   "pct": null,
+   "reason": "foreign-currency refund is still processing"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_185",
+   "pct": null,
+   "reason": "nilai investasi turun tetapi belum dijual"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_186",
+   "pct": null,
+   "reason": "kontrak musiman telah berakhir"
+  },
+  {
+   "amount": 912,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_187",
+   "pct": null,
+   "reason": "one household employment record ended, remaining salary is USD 912"
+  },
+  {
+   "amount": 62000,
+   "currency": "INR",
+   "effective_date": "2026-01-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_188",
+   "pct": null,
+   "reason": "first salary of INR 62000 confirmed for 2026-01-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_189",
+   "pct": null,
+   "reason": "kontrak musiman telah berakhir"
+  },
+  {
+   "amount": 968,
+   "currency": "EUR",
+   "effective_date": "2025-08-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_190",
+   "pct": null,
+   "reason": "first salary of EUR 968 scheduled for 2025-08-15"
+  },
+  {
+   "amount": 1680,
+   "currency": "USD",
+   "effective_date": "2025-11-15",
+   "extra": null,
+   "kind": "salary_on_date",
+   "message_id": "message_191",
+   "pct": null,
+   "reason": "confirmed salary of USD 1680 is paid on 2025-11-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_192",
+   "pct": null,
+   "reason": "employment has ended"
+  },
+  {
+   "amount": 1528.56,
+   "currency": "EUR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_193",
+   "pct": null,
+   "reason": "temporary monthly pay of EUR 1528.56 for the next payroll"
+  },
+  {
+   "amount": 1548,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_base",
+   "message_id": "message_194",
+   "pct": null,
+   "reason": "confirmed base salary is USD 1548, commissions pending approval"
+  },
+  {
+   "amount": 702,
+   "currency": "USD",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_next",
+   "message_id": "message_195",
+   "pct": null,
+   "reason": "next salary reduced to USD 702 due to unpaid leave"
+  },
+  {
+   "amount": 53680,
+   "currency": "ZAR",
+   "effective_date": "2024-12-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_196",
+   "pct": null,
+   "reason": "first salary of ZAR 53680 confirmed for 2024-12-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_197",
+   "pct": null,
+   "reason": "tagihan kartu tambahan masih dalam penyelidikan, pembalikan belum tercatat"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "bill_retry",
+   "message_id": "message_198",
+   "pct": null,
+   "reason": "previous debit attempt failed, bill is still outstanding and will be debited again"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_199",
+   "pct": null,
+   "reason": "quarterly bonus is still subject to review and not approved yet"
+  },
+  {
+   "amount": 214000,
+   "currency": "INR",
+   "effective_date": "2024-06-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_200",
+   "pct": null,
+   "reason": "first salary of INR 214000 confirmed for 2024-06-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "bill_retry",
+   "message_id": "message_201",
+   "pct": null,
+   "reason": "previous debit attempt failed, bill is still outstanding and will be debited again"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_202",
+   "pct": null,
+   "reason": "transfer between two accounts under the same holder"
+  },
+  {
+   "amount": 48260000,
+   "currency": "IDR",
+   "effective_date": null,
+   "extra": null,
+   "kind": "salary_set",
+   "message_id": "message_203",
+   "pct": null,
+   "reason": "satu sumber pendapatan berakhir, sisa gaji bulanan yang dikonfirmasi adalah IDR 48260000"
+  },
+  {
+   "amount": 1485,
+   "currency": "EUR",
+   "effective_date": "2025-05-15",
+   "extra": null,
+   "kind": "salary_on_date",
+   "message_id": "message_204",
+   "pct": null,
+   "reason": "confirmed salary of EUR 1485 is paid on 2025-05-15"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_205",
+   "pct": null,
+   "reason": "displayed value of investment has fallen but not sold"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "income_end",
+   "message_id": "message_206",
+   "pct": null,
+   "reason": "seasonal contract has ended"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_207",
+   "pct": null,
+   "reason": "portfolio market value increased but no units sold"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_208",
+   "pct": null,
+   "reason": "foreign currency transaction pending settlement"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_209",
+   "pct": null,
+   "reason": "prize claim verified but still in payment processing, not credited yet"
+  },
+  {
+   "amount": 38280,
+   "currency": "ZAR",
+   "effective_date": "2025-11-15",
+   "extra": null,
+   "kind": "salary_first",
+   "message_id": "message_210",
+   "pct": null,
+   "reason": "first salary of ZAR 38280 scheduled for 2025-11-15"
+  },
+  {
+   "amount": 103000,
+   "currency": "INR",
+   "effective_date": null,
+   "extra": 46350,
+   "kind": "salary_arrears",
+   "message_id": "message_211",
+   "pct": null,
+   "reason": "regular salary of INR 103000 plus one-time arrears of INR 46350"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_212",
+   "pct": null,
+   "reason": "bonus kuartalan masih menunggu hasil akhir penilaian kinerja dan belum disetujui"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_213",
+   "pct": null,
+   "reason": "transfer antara dua rekening dengan pemilik yang sama"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_214",
+   "pct": null,
+   "reason": "foreign-currency refund is still processing"
+  },
+  {
+   "amount": null,
+   "currency": null,
+   "effective_date": null,
+   "extra": null,
+   "kind": "no_effect",
+   "message_id": "message_215",
+   "pct": null,
+   "reason": "pengembalian dana sudah diproses tetapi belum masuk ke rekening"
+  }
+ ],
+ "e268266bfa2c030b76d6cd13dfdd56ea9ce6b0008be966fbeb8901d3098cb82f": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_161",
+    "pct": null,
+    "reason": "Reminder about minimum payments on separate card accounts"
+   }
+  }
+ },
+ "e3a160ff66d6a6b408c6ab860e5f5e999f7a7db89398946d5eec772d35f524a2": {
+  "amount": 41272,
+  "confidence": 0.95,
+  "currency": null,
+  "date": "27/02/2026",
+  "doc_type": "bill"
+ },
+ "e3f22da9c7befb9fa4931c3715c8613ce0457a1dc1b06d4d51cd2fe1137dc820": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_150",
+    "pct": null,
+    "reason": "Reimbursement for earlier work expense, not regular salary"
+   }
+  }
+ },
+ "e85eef4c5ac1bff6034a480aab0bbf4bda341fe60380280e944789fe571d7a78": {
+  "amount": 200000,
+  "confidence": 0.9,
+  "currency": "INR",
+  "date": "11/08/23",
+  "doc_type": "receipt"
+ },
+ "eb5b636ab3a1d1bbf13fbeb365a0b849418ede03f93de61694744cd78f68e584": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": "2026-07-24",
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_35",
+    "pct": null,
+    "reason": "Receipt for property maintenance payment"
+   }
+  }
+ },
+ "ecc8813ab480aa0d2ce4c3c3ea906d344c670c83ebabfc30b57b2318184b8856": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_39",
+    "pct": null,
+    "reason": "Refund initiated but not yet received"
+   }
+  }
+ },
+ "f8aca9ddd2a068b61718d1a68430f55817e74e9a41bca80131680a653ad050d9": {
+  "__llm__": {
+   "in": 115,
+   "model": "gemini-3.5-flash",
+   "out": 259,
+   "result": {
+    "amount": null,
+    "confirmed": false,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_157",
+    "pct": null,
+    "reason": "Dispute is open and reversal has not been posted yet"
+   }
+  }
+ },
+ "fbc4df2b76c396c603a291155cccc942281e77966e4c26105b4a2e8d8bbf972d": {
+  "__llm__": {
+   "in": 110,
+   "model": "gemini-3.5-flash",
+   "out": 294,
+   "result": {
+    "amount": null,
+    "confirmed": true,
+    "currency": null,
+    "effective_date": null,
+    "extra": null,
+    "kind": "no_effect",
+    "message_id": "message_108",
+    "pct": null,
+    "reason": "Investment sale proceeds settled in cash account"
+   }
+  }
+ }
+}

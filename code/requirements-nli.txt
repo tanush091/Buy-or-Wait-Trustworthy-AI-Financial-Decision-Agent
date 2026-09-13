@@ -1,0 +1,3 @@
+# Optional: local NLI entailment check on LLM-read facts (code/nli.py). Skipped if not installed.
+torch>=2.1
+transformers>=4.40

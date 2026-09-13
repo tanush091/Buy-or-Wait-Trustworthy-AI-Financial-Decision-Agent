@@ -1,0 +1,38 @@
+{
+ "shipped": {
+  "pooled_window": 60,
+  "var_estimator": "median",
+  "bill_estimator": "last",
+  "base_from_minimum": true,
+  "income_first": true,
+  "day0": true
+ },
+ "in_sample": {
+  "affordability_status_pct": 88.0,
+  "recommended_payment_method_pct": 92.0,
+  "payment_plan_pct": 88.0,
+  "earliest_date_pct": 92.0,
+  "spending_changes_pct": 88.0,
+  "amount_safe_to_pay_pct": 16.0
+ },
+ "5-fold": {
+  "affordability_status_pct": 84.0,
+  "recommended_payment_method_pct": 84.0,
+  "payment_plan_pct": 72.0,
+  "earliest_date_pct": 68.0,
+  "spending_changes_pct": 88.0,
+  "amount_safe_to_pay_pct": 16.0,
+  "folds": 5,
+  "shipped_tied_for_best": 4
+ },
+ "leave-one-out": {
+  "affordability_status_pct": 88.0,
+  "recommended_payment_method_pct": 88.0,
+  "payment_plan_pct": 88.0,
+  "earliest_date_pct": 84.0,
+  "spending_changes_pct": 88.0,
+  "amount_safe_to_pay_pct": 16.0,
+  "folds": 25,
+  "shipped_tied_for_best": 24
+ }
+}
